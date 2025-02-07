@@ -1,0 +1,30 @@
+---
+import Head from '../components/Head.astro';
+import Layout from '../layouts/Layout.astro';
+
+const title = 'Small Projects';
+
+---
+
+<Layout>
+	<Head title={title} />
+	<section class="py-12 px-4 mt-6 max-w-screen-lg mx-auto">
+		<h1 class="text-4xl">{title}</h1>
+		<div class="mt-12">
+			<ul class="grid grid-cols-1 md:grid-cols-2 gap-x-4">
+				<li>
+					<a href="https://alpinist.jeksn.me" class="flex flex-col gap-3 p-6 my-2 transition-all duration-300 hover:border-l-[6px] rounded-sm hover:border-white hover:translate-x-1 bg-gray-600/20 h-[150px] text-sm">
+						<span class="text-lg">Alpinist</span>
+						<span class="text-sm text-white/80">A collection of Alpine.js components</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://weeek.xyz/" class="flex flex-col gap-3 p-6 my-2 transition-all duration-300 hover:border-l-[6px] rounded-sm hover:border-white hover:translate-x-1 bg-gray-600/20 h-[150px] text-sm">
+						<span class="text-lg">Weeek</span>
+						<span class="text-sm text-white/80">Small site that displays the week number</span>
+					</a>
+				</li>
+				</ul>
+		</div>
+	</section>
+</Layout>
