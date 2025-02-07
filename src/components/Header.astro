@@ -3,38 +3,54 @@
 import profilePic from '../assets/images/blue.png';
 ---
 
-<header x-data="{ toggle: false }" class="sticky top-0 w-full">
-	<div class="flex items-center justify-between max-w-screen-lg px-8 py-4 mx-auto">
+<header x-cloak x-data="{ open: false }" class="w-full px-4">
+	<div class="flex items-center justify-between max-w-screen-lg py-4 mx-auto">
 		<div>
-			<a href="/" class="duration-300 ease-in-out">
-				<img src={profilePic.src} class="transition-all duration-200 rounded-full size-10 hover:scale-110" width="80" height="80" alt="blue profile picture" loading="lazy" />
+			<a href="/" class="flex items-center gap-3">
+				<img src={profilePic.src} class="transition-all duration-200 rounded-full size-10 hover:scale-110" width="80" height="80" alt="blue orb" loading="lazy" />
+				<!-- <span class="uppercase text-xl hover:scale-105 duration-300 ease-linear transition-all">jeksn.me</span> -->
 			</a>
 		</div>
 		<div class="flex items-center justify-center">
-			<button @click="toggle = !toggle" class="flex items-center justify-center size-12">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-white" x-show="toggle">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-				</svg>
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-white" x-show="!toggle">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-				</svg>
+			<button @click="open = !open" @keydown.escape="open = false" class="flex items-center justify-center size-12 hover:scale-110 transition-all duration-300 ease-linear gap-2">
+				<span x-show="!open">MENU</span>
+				<span x-show="open">CLOSE</span>
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-white" x-show="open">
+						<path stroke-linecap="square" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-white" x-show="!open">
+						<path stroke-linecap="square" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+					</svg>
+				</div>
 			</button>
 		</div>
 	</div>
-	<div class="absolute px-8 w-full left-0 top-[4rem] dropdown" x-show="toggle">
-		<ul class="max-w-screen-lg px-4 pt-4 pb-8 mx-auto text-white">
-			<li><a href="/uses" class="block py-2">Uses</a></li>
-			<li><a href="/reading-list" class="block py-2">Reading List</a></li>
-			<li><a href="/small-projects" class="block py-2">Small Projects</a></li>
-			<li><a href="https://github.com/jeksn/jeksn-nextjs" class="block py-2">Repo</a></li>
+	<div 
+		x-show="open" 
+		x-transition:enter="transition ease-linear duration-150" 
+		x-transition:enter-start="transform opacity-0" 
+		x-transition:enter-end="transform opacity-100" 
+		x-transition:leave="transition ease-linear duration-150" 
+		x-transition:leave-start="transform opacity-100"
+		x-transition:leave-end="transform opacity-0"
+		class="absolute px-8 w-full h-screen left-0 top-[4rem] dropdown">
+		<ul class="h-full mt-[20vh] flex flex-col max-w-screen-lg px-4 pt-4 pb-8 mx-auto text-white text-5xl space-y-8">
+			<li class="hover:underline hover:underline-offset-6"><a href="/uses" class="block py-2">Uses</a></li>
+			<li class="hover:underline hover:underline-offset-6"><a href="/reading-list" class="block py-2">Reading List</a></li>
+			<li class="hover:underline hover:underline-offset-6"><a href="/small-projects" class="block py-2">Small Projects</a></li>
+			<li class="hover:underline hover:underline-offset-6"><a href="https://github.com/jeksn/jeksn-site" class="block py-2">Repo</a></li>
 		</ul>
 	</div>
 </header>
 <style>
+
+[x-cloak] { display: none !important; }
+
 header, .dropdown {
-  background-color: rgba(22, 22, 23, 0.95);
+  background-color: rgba(22, 22, 23, 0.90);
 }
-header a {
+header a, header span {
 	font-family: 'Space Grotesk Variable', sans-serif;
 }
 </style>
