@@ -1,0 +1,40 @@
+---
+// import { Image } from 'astro:assets';
+import profilePic from '../assets/images/blue.png';
+---
+
+<header x-data="{ toggle: false }" class="sticky top-0 w-full">
+	<div class="flex items-center justify-between max-w-screen-lg px-8 py-4 mx-auto">
+		<div>
+			<a href="/" class="duration-300 ease-in-out">
+				<img src={profilePic.src} class="transition-all duration-200 rounded-full size-10 hover:scale-110" width="80" height="80" alt="blue profile picture" loading="lazy" />
+			</a>
+		</div>
+		<div class="flex items-center justify-center">
+			<button @click="toggle = !toggle" class="flex items-center justify-center size-12">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-white" x-show="toggle">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-white" x-show="!toggle">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+				</svg>
+			</button>
+		</div>
+	</div>
+	<div class="absolute px-8 w-full left-0 top-[4rem] dropdown" x-show="toggle">
+		<ul class="max-w-screen-lg px-4 pt-4 pb-8 mx-auto text-white">
+			<li><a href="/uses" class="block py-2">Uses</a></li>
+			<li><a href="/reading-list" class="block py-2">Reading List</a></li>
+			<li><a href="/small-projects" class="block py-2">Small Projects</a></li>
+			<li><a href="https://github.com/jeksn/jeksn-nextjs" class="block py-2">Repo</a></li>
+		</ul>
+	</div>
+</header>
+<style>
+header, .dropdown {
+  background-color: rgba(22, 22, 23, 0.95);
+}
+header a {
+	font-family: 'Space Grotesk Variable', sans-serif;
+}
+</style>

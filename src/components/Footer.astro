@@ -1,0 +1,48 @@
+---
+// import { Image } from 'astro:assets';
+import profilePic from '../assets/images/blue.png';
+const year = new Date().getFullYear();
+---
+<footer class="w-full mt-12 pt-12 pb-6 bg-gray-600/20 px-8">
+	<div class="max-w-screen-lg py-6 mx-auto">
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-x-32 gap-y-12">
+			<div>
+				<a href="/" class="duration-300 ease-in-out">
+					<img 
+					src={profilePic.src} 
+					class="transition-all duration-200 rounded-full size-10 hover:scale-110" 
+					width={80} 
+					height={80} 
+					alt="blue profile picture" 
+					loading="lazy"/>
+				</a>
+			</div>
+			<div class="flex flex-col space-y-2">
+				<h2 class="text-lg">Links</h2>
+				<ul class="flex flex-col space-y-2">
+					<a href="/uses" class="transition-all text-sm hover:underline hover:underline-offset-4">Uses</a>
+					<a href="/reading-list" class="transition-all text-sm hover:underline hover:underline-offset-4">Reading List</a>
+					<a href="/small-projects" class="transition-all text-sm hover:underline hover:underline-offset-4">Small Projects</a>
+					<!-- {/* <a href="/blog" class="transition-all text-sm hover:underline hover:underline-offset-4">Blog</a> */} -->
+					<a href="/now" class="transition-all text-sm hover:underline hover:underline-offset-4">Now</a>
+					<a href="https://github.com/jeksn/jeksn" class="transition-all text-sm hover:underline hover:underline-offset-4">Repo</a>
+				</ul>
+			</div>
+			<div class="flex flex-col space-y-2">
+				<h2 class="text-lg">Where to find me</h2>
+				<ul class="flex flex-col space-y-2">
+					<a href="https://github.com/jeksn" class="transition-all text-sm hover:underline hover:underline-offset-4">GitHub</a>
+					<a href="https://bsky.app/profile/jeksn.bsky.social" class="transition-all text-sm hover:underline hover:underline-offset-4">Bluesky</a>
+					<a href="https://www.linkedin.com/in/jeksn/" class="transition-all text-sm hover:underline hover:underline-offset-4">LinkedIn</a>
+					<a href="https://read.cv/jeksn" class="transition-all text-sm hover:underline hover:underline-offset-4">Read.cv</a>
+					<a href="mailto:johan@jeksn.me" class="transition-all text-sm hover:underline hover:underline-offset-4">E-mail me</a>
+				</ul>
+			</div>
+		</div>
+		<div class="flex justify-start md:justify-center mt-24">
+			<span class="text-sm text-white/80">Copyright © {year} Johan Eriksson / jeksn</span>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+---
+import Head from '../components/Head.astro';
+import Layout from '../layouts/Layout.astro';
+import AppsServices from '../../public/data/apps-services.json';
+import Gear from '../../public/data/gear.json';
+import Headphones from '../../public/data/headphones.json';
+import Other from '../../public/data/other.json';
+const title = 'Uses';
+---
+
+<Layout>
+	<Head title="uses" />
+	<section class="py-12 px-4">
+		<div class="mt-6 max-w-screen-lg mx-auto">
+            <div class="py-12 space-y-10">
+				<div>
+					<h2 class="text-3xl">Apps & Services</h2>
+					<ul class="mt-4 ml-3">
+						{AppsServices.map((app) => (
+							<li class="list-disc my-3 space-y-1">
+								<p>{app.name}</p>
+								<p class="text-sm text-white/80">{app.description}</p>
+							</li>
+						))}
+					</ul>
+				</div>
+				<div>
+					<h2 class="text-3xl">Gear</h2>
+					<ul class="mt-4 ml-3">
+						{Gear.map((app) => (
+							<li class="list-disc my-3 space-y-1">
+								<p>{app.name}</p>
+								<p class="text-sm text-white/80">{app.description}</p>
+							</li>
+						))}
+					</ul>
+				</div>
+				<div>
+					<h2 class="text-3xl">Headphones</h2>
+					<ul class="mt-4 ml-3">
+						{Headphones.map((app) => (
+							<li class="list-disc my-3 space-y-1">
+								<p>{app.name}</p>
+								<p class="text-sm text-white/80">{app.description}</p>
+							</li>
+						))}
+					</ul>
+				</div>
+					<div>
+						<h2 class="text-3xl">Other</h2>
+						<ul class="mt-4 ml-3">
+							{Other.map((app) => (
+								<li class="list-disc my-3 space-y-1">
+									<p>{app.name}</p>
+									<p class="text-sm text-white/80">{app.description}</p>
+								</li>
+							))}
+						</ul>
+					</div>
+				</div>
+            </div>
+        </div>
+	</section>
+</Layout>
+

@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NowData from '../../public/data/now.json';
+---
+
+<Layout>
+	<section class="py-12 px-4">
+		<div class="mt-6 max-w-screen-lg mx-auto">
+            <div class="py-12 space-y-10">
+				<div>
+					<h2 class="text-3xl">Now</h2>
+					<ul class="mt-4 ml-3">
+						{NowData.map((app) => (
+							<li class="list-disc my-3 space-y-1">
+								<p>{app.name}</p>
+								<p class="text-sm text-white/80">{app.description}</p>
+							</li>
+						))}
+					</ul>
+				</div>
+            </div>
+        </div>
+	</section>
+</Layout>
+
