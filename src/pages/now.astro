@@ -8,18 +8,24 @@ const title = 'Now';
 
 <Head title={title} />
 <Layout>
-	<section class="py-12 px-4 mt-6 max-w-screen-lg mx-auto">
-		<div>
-			<h1 class="text-4xl">{title}</h1>
-			<ul class="mt-4 ml-3">
-				{NowData.map((app) => (
-					<li class="list-disc my-3 space-y-1">
-						<p>{app.name}</p>
-						<p class="text-sm text-white/80">{app.description}</p>
-					</li>
-				))}
-			</ul>
+	<section class="py-12 px-4">
+		<div class="mt-6 max-w-screen-lg mx-auto">
+			<div class="space-y-4">
+				<h1 class="text-4xl">{title}</h1>
+				<p class="text-white/80">What I'm currently focusing on.</p>
+			</div>
+			<div class="py-6 space-y-10">
+				<ul class="mt-4 ml-3 w-full md:w-1/2">
+					{NowData.map((app) => (
+						<li class="list-disc my-3 space-y-1">
+							<p>{app.name}</p>
+							<p class="text-sm text-white/80">{app.description}</p>
+						</li>
+					))}
+				</ul>
+			</div>
 		</div>
 	</section>
 </Layout>
+
 

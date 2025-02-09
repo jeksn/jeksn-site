@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownLayout.astro
 title: "Reading List"
+description: "My list of books I've read and am currently reading. A ⭐️ means it's one of the best of the year."
 ---
 ## Currently Reading
 
