@@ -1,0 +1,24 @@
+---
+import Head from '../components/Head.astro';
+import Layout from '../layouts/Layout.astro';
+import NowData from '../../public/data/now.json';
+
+const title = 'Blog';
+---
+
+<Head title={title} />
+<Layout>
+	<section class="py-12 px-4">
+		<div class="mt-6 max-w-screen-lg mx-auto">
+			<div class="space-y-4">
+				<h1 class="text-4xl">{title}</h1>
+				<!-- <p class="text-white/80">Coming soon.</p> -->
+			</div>
+			<div class="pt-6 pb-44">
+				<h2 class="text-2xl">Coming soon.</h2>
+			</div>
+		</div>
+	</section>
+</Layout>
+
+
