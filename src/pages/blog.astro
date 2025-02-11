@@ -1,7 +1,9 @@
 ---
 import Head from '../components/Head.astro';
 import Layout from '../layouts/Layout.astro';
-import NowData from '../../public/data/now.json';
+
+const allPosts = Object.values(import.meta.glob('./blog/*.md', { eager: true }));
+const pageTitle = "My Astro Learning Blog";
 
 const title = 'Blog';
 ---
@@ -12,10 +14,19 @@ const title = 'Blog';
 		<div class="mt-6 max-w-screen-lg mx-auto">
 			<div class="space-y-4">
 				<h1 class="text-4xl">{title}</h1>
-				<!-- <p class="text-white/80">Coming soon.</p> -->
 			</div>
 			<div class="pt-6 pb-44">
-				<h2 class="text-2xl">Coming soon.</h2>
+				<h2 class="text-2xl">List of posts</h2>
+				<ul class="grid grid-cols-1 md:grid-cols-2 gap-x-4 mt-6">
+					{allPosts.sort((a: any, b: any) => (a.frontmatter.date < b.frontmatter.date) ? 1 : -1).map((post: any) => 
+						<li>
+							<a href={post.url} class="flex flex-col gap-3 p-6 my-2 transition-all duration-300 hover:border-l-[6px] rounded-sm hover:border-white hover:translate-x-1 bg-gray-600/20 h-[150px] text-sm">
+								<span class="text-lg">{post.frontmatter.title}</span>
+								<span class="text-sm text-white/80">{post.frontmatter.date}</span>
+							</a>
+						</li>
+					)}
+				  </ul>
 			</div>
 		</div>
 	</section>

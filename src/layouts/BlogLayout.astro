@@ -10,14 +10,17 @@ const { frontmatter } = Astro.props;
 	<Head title={frontmatter.title} />
 	<Header />
 	<section class="py-12 px-4">
-		<div class="mt-6 max-w-screen-lg mx-auto">
-			<div class="space-y-4">
+		<div class="mt-6 max-w-screen-md mx-auto">
+			<div class="space-y-4 mb-6">
 				<h1 class="text-4xl mb-3">{frontmatter.title}</h1>
-				{frontmatter.date ? <span class="text-sm text-white/80">{frontmatter.date}</span> : ''}
+				{frontmatter.date ? <span class="text-white/80 border-l-2 pl-3">{frontmatter.date}</span> : ''}
 				<p class="text-white/80">{frontmatter.description}</p>
 			</div>
 			<div class="markdown">
 				<slot />
+			</div>
+			<div class="mt-16">
+				<a href="/blog" class="bg-white/10 hover:bg-white/20 rounded px-12 py-4">Go back</a>
 			</div>
 		</div>
 		</div>
