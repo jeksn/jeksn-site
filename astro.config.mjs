@@ -12,5 +12,6 @@ export default defineConfig({
   integrations: [tailwind(), react(), alpinejs()],
   redirects: {
 	'/small-projects': '/projects' 
- }
+ },
+ site: "https://jeksn.me",
 });
