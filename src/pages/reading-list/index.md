@@ -96,7 +96,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 
 ## 2022
 
-- The Storyteller / Dave Grohl (ljudbok)
+- The Storyteller / Dave Grohl (auidobook)
 - Rendezvous with Rama / Arthur C.Clarke
 - Memoir: A Life in Computer Games / Sid Meier
 - The Darkest Web / Eileen Ormsby
@@ -178,7 +178,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - Vad jag pratar om när jag pratar om löpning / Haruki Murakami
 - Fragment för att bemästra döden / Alejandra Pizarnik (P)
 - ⭐️  The Haunted Bookshop / Christopher Morley
-- Siddhartha / Hermann Hessen
+- Siddhartha / Hermann Hesse
 
 ## 2017
 
