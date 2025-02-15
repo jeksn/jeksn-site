@@ -20,7 +20,7 @@
 	@apply text-base mb-6 text-white/90;
 }
 .markdown pre {
-	@apply px-6 !bg-[#1a1a1a]/80 rounded-sm mb-4;
+	@apply px-6 py-2 !bg-[#1a1a1a]/80 rounded-sm mb-4;
 }
 .markdown pre > code > span > span {
 	font-family: 'JetBrains Mono Variable';

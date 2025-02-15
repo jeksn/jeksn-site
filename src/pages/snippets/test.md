@@ -15,9 +15,3 @@ Veniam ea minim eu ad culpa aute ipsum nisi consectetur laborum voluptate qui do
 <?= "Does this work?"; ?>
 
 ```
-
-```js
-let test = "Does this work?";
-console.log(test);
-
-```
