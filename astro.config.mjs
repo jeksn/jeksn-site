@@ -14,4 +14,9 @@ export default defineConfig({
 	'/small-projects': '/projects' 
  },
  site: "https://jeksn.me",
+ markdown: {
+    shikiConfig: {
+      theme: 'nord',
+    },
+  },
 });

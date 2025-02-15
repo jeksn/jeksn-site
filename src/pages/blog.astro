@@ -3,7 +3,6 @@ import Head from '../components/Head.astro';
 import Layout from '../layouts/Layout.astro';
 
 const allPosts = Object.values(import.meta.glob('./blog/*.md', { eager: true }));
-const pageTitle = "My Astro Learning Blog";
 
 const title = 'Blog';
 ---
