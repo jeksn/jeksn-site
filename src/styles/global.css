@@ -15,3 +15,6 @@ h1, h2, h3, h4, h5, h6 {
 p, ul, ol, table, dl, a, span {
 	font-family: 'Inter', sans-serif;
 }
+.card {
+	@apply transition-all duration-300 !bg-[#1a1a1a]/60 border border-[#1a1a1a]/80 hover:border-white/20 rounded-sm;
+}
