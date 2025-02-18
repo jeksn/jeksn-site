@@ -7,7 +7,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 
 - The Consolation of Philosophy / Boethius
 - Butcher's Crossing / John Williams
-- Tje Dispossessed / Ursula K. Le Guin
+- The Dispossessed / Ursula K. Le Guin
 
 ## 2025
 
