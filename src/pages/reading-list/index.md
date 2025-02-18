@@ -5,14 +5,15 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ---
 ## Currently Reading
 
-- Cryptonomicon / Neal Stephenson
 - The Consolation of Philosophy / Boethius
 - Butcher's Crossing / John Williams
+- Tje Dispossessed / Ursula K. Le Guin
 
 ## 2025
 
 - Stäppvargen / Hermann Hesse
 - The Hour of the Star / Clarice Lispector
+- Cryptonomicon / Neal Stephenson
 
 ## 2024
 
