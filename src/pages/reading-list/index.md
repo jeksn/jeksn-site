@@ -5,7 +5,6 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ---
 ## Currently Reading
 
-- Butcher's Crossing / John Williams
 - The Dispossessed / Ursula K. Le Guin
 
 ## 2025
@@ -14,6 +13,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - The Hour of the Star / Clarice Lispector
 - Cryptonomicon / Neal Stephenson
 - The Consolation of Philosophy / Boethius
+- Butcher's Crossing / John Williams
 
 ## 2024
 
