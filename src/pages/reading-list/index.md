@@ -5,8 +5,8 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ---
 ## Currently Reading
 
-- The Dispossessed / Ursula K. Le Guin
 - The Crying of Lot 49 / Thomas Pynchon
+- 11/22/63 / Stephen King
 
 ## 2025
 
@@ -15,6 +15,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - Cryptonomicon / Neal Stephenson
 - The Consolation of Philosophy / Boethius
 - Butcher's Crossing / John Williams
+- The Dispossessed / Ursula K. Le Guin
 
 ## 2024
 
