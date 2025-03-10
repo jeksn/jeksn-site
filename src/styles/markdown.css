@@ -19,6 +19,9 @@
 .markdown p {
 	@apply text-base mb-6 text-white/90;
 }
+.markdown a {
+	@apply underline underline-offset-2;
+}
 .markdown pre {
 	@apply card px-6 py-2 rounded-sm mb-4;
 }
