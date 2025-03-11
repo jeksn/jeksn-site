@@ -1,6 +1,7 @@
 ---
 import Head from '../components/Head.astro';
 import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
 
 const title = 'Projects';
 
@@ -8,11 +9,8 @@ const title = 'Projects';
 
 <Head title={title} />
 <Layout>
+	<Hero title={title} subtitle="A collection of some of my side projects and personal experiments." />
 	<section class="py-12 px-4 mt-6 max-w-screen-lg mx-auto">
-		<div class="space-y-4">
-			<h1 class="text-4xl">{title}</h1>
-			<p class="text-white/80">A collection of some of my side projects and personal experiments.</p>
-		</div>
 		<div class="mt-12">
 			<ul class="grid grid-cols-1 md:grid-cols-2 gap-x-4">
 				<li>

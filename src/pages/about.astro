@@ -1,22 +1,59 @@
 ---
 import Head from '../components/Head.astro';
 import Layout from '../layouts/Layout.astro';
+import ScrollableText from '../components/ScrollableText.astro';
+import Hero from '../components/Hero.astro';
 
 const title = 'About';
+const subtitle = 'Who am I?';
 ---
 
 <Head title={title} />
 <Layout>
+	<Hero title={title} subtitle={subtitle} />
 	<section class="py-12 px-4">
 		<div class="mt-6 max-w-screen-lg mx-auto">
-			<div class="space-y-4">
-				<h1 class="text-4xl">{title}</h1>
-			</div>
-			<div class="pt-6 space-y-10 pb-44">
-				<p class="text-white/80">I'm still working on this page!</p>
+			<div class="pt-6 space-y-8 pb-44 leading-relaxed">
+				<ul class="relative bg-zinc-900 p-8 rounded">
+					<h3 class="absolute text-3xl -top-5">Bio:</h3>
+					<ul class="space-y-2">
+						<li><span class="font-semibold">Name:</span> Johan Eriksson</li>
+						<li><span class="font-semibold">Location:</span> Stockholm, Sweden</li>
+						<li><span class="font-semibold">Occupation:</span> Developer at <a href="https://wtmg.se" class="underline">WTMG</a></li>
+						<li><span class="font-semibold">Interests:</span> Reading, Photography, Coding</li>
+					</ul>
+				</ul>
+				<h2 class="text-3xl py-6">Tech stack</h2>
+				<ul class="relative bg-zinc-900 p-8 rounded">
+					<h3 class="absolute text-3xl -top-5">Languages:</h3>
+					<ul>
+						<li>PHP</li>
+						<li>JS / TS</li>
+						<li>GO</li>
+						<li>Gleam</li>
+					</ul>
+				</ul>
+				<ul class="relative bg-zinc-900 p-8 rounded">
+					<h3 class="absolute text-3xl -top-5">Frameworks, libraries and tools:</h3>
+					<ul>
+						<li>Laravel</li>
+						<li>Astro</li>
+						<li>React / Next.js</li>
+						<li>Vue / Nuxt.js</li>
+						<li>Alpine.js</li>
+						<li>Tailwind</li>
+					</ul>
+				</ul>
+				<ul class="relative bg-zinc-900 p-8 rounded">
+					<h3 class="absolute text-3xl -top-5">CMS:</h3>
+					<ul>
+						<li>Wordpress</li>
+						<li>Statamic</li>
+					</ul>
+				</ul>
 			</div>
 		</div>
 	</section>
+	<ScrollableText />
 </Layout>
-
 

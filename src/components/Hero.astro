@@ -1,0 +1,23 @@
+---
+let title = Astro.props.title;
+let subtitle = Astro.props.subtitle;
+---
+
+<div class="hero py-20 mb-4">
+	<div class="max-w-screen-lg text-center space-y-4 mx-auto">
+		<h1 class="text-6xl">{title}</h1>
+		<h2 class="text-xl">{subtitle}</h2>
+	</div>
+</div>
+
+
+<style>
+	.hero {
+		background-image: linear-gradient(rgb(20, 20, 20, 0.6), rgba(20, 20, 20, 0.8)), url(https://images.hdqwalls.com/download/digital-art-abstract-black-lines-minimalism-5k-q3-3840x2160.jpg);
+		/* background-image: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url(https://static.vecteezy.com/system/resources/previews/010/711/511/large_2x/abstract-background-design-using-wavy-line-pattern-in-white-color-black-background-3d-rendering-and-4k-size-free-photo.jpg); */
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+</style>
