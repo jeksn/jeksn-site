@@ -6,7 +6,6 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - The Crying of Lot 49 / Thomas Pynchon
-- 11/22/63 / Stephen King
 - Sailing to Sarantium / Guy Gavriel Kay
 
 ## 2025
