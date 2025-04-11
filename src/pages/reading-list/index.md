@@ -6,7 +6,6 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - The Crying of Lot 49 / Thomas Pynchon
-- Sailing to Sarantium / Guy Gavriel Kay
 - How to Focus: A Monastic Guide for an Age of Distraction / John Cassian
 
 ## 2025
@@ -17,6 +16,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - The Consolation of Philosophy / Boethius
 - Butcher's Crossing / John Williams
 - The Dispossessed / Ursula K. Le Guin
+- Sailing to Sarantium / Guy Gavriel Kay
 
 ## 2024
 
