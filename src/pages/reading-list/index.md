@@ -7,6 +7,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 
 - The Crying of Lot 49 / Thomas Pynchon
 - How to Focus: A Monastic Guide for an Age of Distraction / John Cassian
+- The Courage to Be Disliked / Ichiro Kishimi & Fumitake Koga
 
 ## 2025
 
