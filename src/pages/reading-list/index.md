@@ -6,7 +6,6 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - The Crying of Lot 49 / Thomas Pynchon
-- How to Focus: A Monastic Guide for an Age of Distraction / John Cassian
 - The Courage to Be Disliked / Ichiro Kishimi & Fumitake Koga
 
 ## 2025
@@ -18,6 +17,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - Butcher's Crossing / John Williams
 - The Dispossessed / Ursula K. Le Guin
 - Sailing to Sarantium / Guy Gavriel Kay
+- How to Focus: A Monastic Guide for an Age of Distraction / John Cassian
 
 ## 2024
 
