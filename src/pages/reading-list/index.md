@@ -6,6 +6,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - Lord of Emperors / Guy Gavriel Kay
+- Fahrenheit-182 / Mark Hoppus & Dan Ozzi
 
 ## 2025
 
