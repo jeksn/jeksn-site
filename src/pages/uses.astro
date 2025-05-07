@@ -48,18 +48,18 @@ const title = 'Uses';
 						))}
 					</ul>
 				</div>
-					<div>
-						<h2 class="text-3xl">Other</h2>
-						<ul class="mt-4 ml-3">
-							{Other.map((app) => (
-								<li class="list-disc my-3 space-y-1">
-									<p>{app.name}</p>
-									<p class="text-sm text-white/80">{app.description}</p>
-								</li>
-							))}
-						</ul>
-					</div>
+				<div class="hidden">
+					<h2 class="text-3xl">Other</h2>
+					<ul class="mt-4 ml-3">
+						{Other.map((app) => (
+							<li class="list-disc my-3 space-y-1">
+								<p>{app.name}</p>
+								<p class="text-sm text-white/80">{app.description}</p>
+							</li>
+						))}
+					</ul>
 				</div>
+			</div>
             </div>
         </div>
 	</section>

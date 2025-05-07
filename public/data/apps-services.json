@@ -4,8 +4,8 @@
         "description": "Would like to use Arc or Firefox, but Chrome works best for both personal and work. Might move over to Thorium to get away from Google."
     },
     {
-        "name": "VS Code",
-        "description": "I will sometimes NeoVim for quick fixes."
+        "name": "VS Code + Windsurf",
+        "description": "Mostly using Windsurf right now. I will sometimes NeoVim or Helix for quick fixes."
     },
     {
         "name": "Ghostty",
@@ -36,7 +36,7 @@
         "description": "I can't imagine using a Mac without it."
     },
     {
-        "name": "Apple Music",
-        "description": "The MacOS app is terrible, so I'm using Cider instead on my MacBook."
+        "name": "Deezer",
+        "description": "Moved from Apple Music."
     }
 ]
