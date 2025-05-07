@@ -1,5 +1,5 @@
 .markdown ul {
-	@apply space-y-1 px-4;
+	@apply space-y-1 px-4 mb-6;
 }
 .markdown li {
 	@apply list-outside list-disc;
@@ -27,4 +27,7 @@
 }
 .markdown pre > code > span > span {
 	font-family: 'JetBrains Mono Variable';
+}
+.markdown blockquote {
+	@apply border-l-8 border-white/20 bg-gray-800 rounded-sm mb-6 px-8 py-4;
 }
