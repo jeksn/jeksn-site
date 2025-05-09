@@ -19,6 +19,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - How to Focus: A Monastic Guide for an Age of Distraction / John Cassian
 - The Courage to Be Disliked / Ichiro Kishimi & Fumitake Koga
 - Fahrenheit-182 / Mark Hoppus & Dan Ozzi
+- The Crying of Lot 49 / Thomas Pynchon
 
 ## 2024
 
