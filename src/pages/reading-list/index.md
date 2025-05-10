@@ -6,6 +6,8 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - Lord of Emperors / Guy Gavriel Kay
+- Tortilla Flat / John Steinbeck
+- Iron John / Robert Bly
 
 ## 2025
 
