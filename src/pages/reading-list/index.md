@@ -5,9 +5,9 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ---
 ## Currently Reading
 
-- Lord of Emperors / Guy Gavriel Kay
 - Tortilla Flat / John Steinbeck
 - Iron John / Robert Bly
+- The Burnout Society / Byung-Chul Han
 
 ## 2025
 
@@ -22,6 +22,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - The Courage to Be Disliked / Ichiro Kishimi & Fumitake Koga
 - Fahrenheit-182 / Mark Hoppus & Dan Ozzi
 - The Crying of Lot 49 / Thomas Pynchon
+- Lord of Emperors / Guy Gavriel Kay
 
 ## 2024
 
