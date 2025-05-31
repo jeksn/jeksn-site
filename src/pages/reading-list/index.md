@@ -5,7 +5,6 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ---
 ## Currently Reading
 
-- Tortilla Flat / John Steinbeck
 - Iron John / Robert Bly
 - The Burnout Society / Byung-Chul Han
 
@@ -23,6 +22,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - Fahrenheit-182 / Mark Hoppus & Dan Ozzi
 - The Crying of Lot 49 / Thomas Pynchon
 - Lord of Emperors / Guy Gavriel Kay
+- Tortilla Flat / John Steinbeck
 
 ## 2024
 
