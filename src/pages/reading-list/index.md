@@ -6,7 +6,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - Iron John / Robert Bly
-- The Burnout Society / Byung-Chul Han
+- After Stoicism: Last Words of the Last Roman Philosopher / Thomas M. Ward
 
 ## 2025
 
@@ -23,6 +23,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - The Crying of Lot 49 / Thomas Pynchon
 - Lord of Emperors / Guy Gavriel Kay
 - Tortilla Flat / John Steinbeck
+- The Burnout Society / Byung-Chul Han
 
 ## 2024
 
