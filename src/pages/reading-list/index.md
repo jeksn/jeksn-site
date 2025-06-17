@@ -6,7 +6,6 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - After Stoicism: Last Words of the Last Roman Philosopher / Thomas M. Ward
-- The Memory Police / Yoko Ogawa
 
 ## 2025
 
@@ -25,6 +24,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - Tortilla Flat / John Steinbeck
 - The Burnout Society / Byung-Chul Han
 - Iron John / Robert Bly
+- The Memory Police / Yoko Ogawa
 
 ## 2024
 
