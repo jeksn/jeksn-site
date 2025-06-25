@@ -6,6 +6,8 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - After Stoicism: Last Words of the Last Roman Philosopher / Thomas M. Ward
+- Splendor / Stefan Lindberg
+- By Night in Chile / Roberto Bolano
 
 ## 2025
 
