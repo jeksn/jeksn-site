@@ -6,7 +6,6 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - After Stoicism: Last Words of the Last Roman Philosopher / Thomas M. Ward
-- Splendor / Stefan Lindberg
 - By Night in Chile / Roberto Bolano
 
 ## 2025
@@ -27,6 +26,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - The Burnout Society / Byung-Chul Han
 - Iron John / Robert Bly
 - The Memory Police / Yoko Ogawa
+- Splendor / Stefan Lindberg
 
 ## 2024
 
