@@ -3,9 +3,10 @@ layout: ../../layouts/MarkdownLayout.astro
 title: "Reading List"
 description: "My list of books I've read and am currently reading. A ⭐️ means it's one of the best of the year."
 ---
+
 ## Currently Reading
 
-- Om natten i Chile / Roberto Bolaño
+- Anathem / Neal Stephenson
 
 ## 2025
 
@@ -27,6 +28,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - The Memory Police / Yoko Ogawa
 - Splendor / Stefan Lindberg
 - After Stoicism: Last Words of the Last Roman Philosopher / Thomas M. Ward
+- Om natten i Chile / Roberto Bolaño
 
 ## 2024
 
