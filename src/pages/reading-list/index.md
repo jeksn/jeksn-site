@@ -7,6 +7,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - Anathem / Neal Stephenson
+- Competing in the Age of AI / Marco Iansiti & Karim R. Lakhani
 
 ## 2025
 
