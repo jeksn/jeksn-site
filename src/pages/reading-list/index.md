@@ -8,7 +8,6 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 
 - Anathem / Neal Stephenson
 - Competing in the Age of AI / Marco Iansiti & Karim R. Lakhani
-- Tracers in the Dark / Andy Greenberg
 
 ## 2025
 
@@ -31,6 +30,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - Splendor / Stefan Lindberg
 - After Stoicism: Last Words of the Last Roman Philosopher / Thomas M. Ward
 - Om natten i Chile / Roberto Bolaño
+- Tracers in the Dark / Andy Greenberg
 
 ## 2024
 
