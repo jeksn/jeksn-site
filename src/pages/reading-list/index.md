@@ -8,6 +8,8 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 
 - Anathem / Neal Stephenson
 - Competing in the Age of AI / Marco Iansiti & Karim R. Lakhani
+- The Catcher in the Rye / J.D. Salinger
+- Amusing Ourselves to Death / Neil Postman
 
 ## 2025
 
