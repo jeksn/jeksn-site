@@ -7,7 +7,6 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - Anathem / Neal Stephenson
-- Competing in the Age of AI / Marco Iansiti & Karim R. Lakhani
 - The Catcher in the Rye / J.D. Salinger
 - Amusing Ourselves to Death / Neil Postman
 
@@ -33,6 +32,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - After Stoicism: Last Words of the Last Roman Philosopher / Thomas M. Ward
 - Om natten i Chile / Roberto Bolaño
 - Tracers in the Dark / Andy Greenberg
+- Competing in the Age of AI / Marco Iansiti & Karim R. Lakhani
 
 ## 2024
 
