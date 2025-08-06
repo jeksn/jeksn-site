@@ -116,7 +116,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 
 ## 2022
 
-- The Storyteller / Dave Grohl (auidobook)
+- The Storyteller / Dave Grohl (audiobook)
 - Rendezvous with Rama / Arthur C.Clarke
 - Memoir: A Life in Computer Games / Sid Meier
 - The Darkest Web / Eileen Ormsby
