@@ -1,15 +1,15 @@
 [
     {
-        "name": "Chrome",
-        "description": "Would like to use Arc or Firefox, but Chrome works best for both personal and work. Might move over to Thorium to get away from Google."
+        "name": "Firefox",
+        "description": "Only using Chrome for testing purposes now."
     },
     {
         "name": "VS Code + Windsurf",
         "description": "Mostly using Windsurf right now. I will sometimes NeoVim or Helix for quick fixes."
     },
     {
-        "name": "Ghostty",
-        "description": "Trying it out as a replacement for Warp and WezTerm, which are both great terminal emulators."
+        "name": "Warp",
+        "description": "I've gone back to Warp after using both Wezterm and Ghostty for a while."
     },
     {
         "name": "Obsidian",
