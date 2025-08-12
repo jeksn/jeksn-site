@@ -7,7 +7,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 ## Currently Reading
 
 - Anathem / Neal Stephenson
-- Amusing Ourselves to Death / Neil Postman
+- Against the Day / Thomas Pynchon
 
 ## 2025
 
@@ -33,6 +33,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - Tracers in the Dark / Andy Greenberg
 - Competing in the Age of AI / Marco Iansiti & Karim R. Lakhani
 - The Catcher in the Rye / J.D. Salinger
+- Amusing Ourselves to Death / Neil Postman
 
 ## 2024
 
