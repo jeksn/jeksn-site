@@ -8,6 +8,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 
 - Anathem / Neal Stephenson
 - Against the Day / Thomas Pynchon
+- Nuclear War: A Scenario / Annie Jacobsen
 
 ## 2025
 
