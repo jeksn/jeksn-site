@@ -8,7 +8,6 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 
 - Anathem / Neal Stephenson
 - Against the Day / Thomas Pynchon
-- Nuclear War: A Scenario / Annie Jacobsen
 
 ## 2025
 
@@ -35,6 +34,7 @@ description: "My list of books I've read and am currently reading. A ⭐️ mean
 - Competing in the Age of AI / Marco Iansiti & Karim R. Lakhani
 - The Catcher in the Rye / J.D. Salinger
 - Amusing Ourselves to Death / Neil Postman
+- Nuclear War: A Scenario / Annie Jacobsen
 
 ## 2024
 
