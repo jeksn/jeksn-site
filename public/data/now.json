@@ -1,14 +1,22 @@
 [
     {
-        "name": "Learning Laravel",
-        "description": "Going through everything Laravel offers and it's ecosystem. Nova, Inertia, Statamic etc."
+        "name": "Using Laravel",
+        "description": "I'm building everything with Laravel in 2025 and using everything its ecosystem offers."
     },
     {
         "name": "Getting better at writing and keeping a journal",
-        "description": "Since the start of 2025 I've been keeping daily notes that combine a journal, commonplace book and a to-do list."
+		"description": "This has been one of the best habits I've picked up this year."
     },
     {
         "name": "Reading more books and consuming better media",
-        "description": "Mostly removed social media and trying to limit wasting time on Youtube."
-    }
+        "description": "Removed social media, reading less news and trying to limit wasting time on Youtube."
+    },
+	{
+		"name": "Playing disc golf",
+		"description": "I don't have time do do it as often as I'd like, but it's been fun when I can."
+	},
+	{
+		"name": "Going to the gym",
+		"description": "Trying to be more consistent with going to the gym."
+	}
 ]
