@@ -11,8 +11,9 @@ import alpinejs from '@astrojs/alpinejs';
 export default defineConfig({
   integrations: [tailwind(), react(), alpinejs()],
   redirects: {
-	'/small-projects': '/projects' 
- },
+	'/small-projects': '/projects',
+	'/blog': '/',
+  },
  site: "https://jeksn.me",
  markdown: {
     shikiConfig: {
