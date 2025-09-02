@@ -1,3 +1,3 @@
 # jeksn.me 🧑‍🚀
 
-2025 rebuild and migration from Nextjs to Astro.
+2025 rebuild and migration from Next.js to Astro.
