@@ -1,0 +1,37 @@
+---
+import Head from '../components/Head.astro';
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+
+const title = 'Projects';
+
+---
+
+<Head title={title} />
+<Layout>
+	<Hero title={title} subtitle="A collection of some of my side projects and personal experiments." />
+	<section class="py-12 px-4 mt-6 max-w-screen-lg mx-auto">
+		<div class="mt-12">
+			<ul class="grid grid-cols-1 md:grid-cols-2 gap-x-4">
+				<li>
+					<a href="https://github.com/jeksn/HatStack" class="flex flex-col gap-3 p-6 my-2 card h-[150px] text-sm">
+						<span class="text-lg">Hat Stack</span>
+						<span class="text-sm text-white/80">A simple starter template based on Alpine.js, Tailwind CSS v4.0 and Handlebars.</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://alpinist.jeksn.me" class="flex flex-col gap-3 p-6 my-2 card h-[150px] text-sm">
+						<span class="text-lg">Alpinist</span>
+						<span class="text-sm text-white/80">A collection of Alpine.js components.</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://weeek.xyz/" class="flex flex-col gap-3 p-6 my-2 card h-[150px] text-sm">
+						<span class="text-lg">Weeek</span>
+						<span class="text-sm text-white/80">Small site that displays the week number.</span>
+					</a>
+				</li>
+				</ul>
+		</div>
+	</section>
+</Layout>

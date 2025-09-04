@@ -1,67 +1,97 @@
 ---
 import Head from '../components/Head.astro';
-import Layout from '../layouts/Layout.astro';
+import LayoutLight from '../layouts/LayoutLight.astro';
 import Hero from '../components/Hero.astro';
 import AppsServices from '../../public/data/apps-services.json';
 import Gear from '../../public/data/gear.json';
 import Headphones from '../../public/data/headphones.json';
 import Other from '../../public/data/other.json';
+
 const title = 'Uses';
+const subtitle = "An ever evolving list of some of the apps, services and gear I use.";
+
+// Categories for the sidebar
+const categories = ['Apps & Services', 'Gear', 'Headphones'];
 ---
 
 <Head title={title} />
-<Layout>
-	<Hero title={title} subtitle="An ever evolving list of some of the apps, services and gear I use." />
-	<section class="py-12 px-4">
-		<div class="max-w-screen-lg mx-auto">
-            <div class="py-12 space-y-10">
-				<div>
-					<h2 class="text-3xl">Apps & Services</h2>
-					<ul class="mt-4 ml-3 w-full md:w-1/2">
-						{AppsServices.map((app) => (
-							<li class="list-disc my-3 space-y-1">
-								<p>{app.name}</p>
-								<p class="text-sm text-white/80">{app.description}</p>
-							</li>
-						))}
-					</ul>
+<LayoutLight>
+	<Hero title={title} subtitle={subtitle} />
+	<section class="pt-12 pb-16 px-4">
+		<div class="mt-6 max-w-screen-lg mx-auto">
+			<div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+				<!-- Left sidebar with categories -->
+				<div class="md:col-span-1">
+					<div class="sticky top-8 space-y-8">
+						<div>
+							<ul class="space-y-2">
+								{categories.map((category) => (
+									<li>
+										<a href={`#${category.toLowerCase().replace(/[&\s]+/g, '-')}`} class="text-sm text-[#939393] hover:text-white transition-colors">
+											{category}
+										</a>
+									</li>
+								))}
+							</ul>
+						</div>
+					</div>
 				</div>
-				<div>
-					<h2 class="text-3xl">Gear</h2>
-					<ul class="mt-4 ml-3">
-						{Gear.map((app) => (
-							<li class="list-disc my-3 space-y-1">
-								<p>{app.name}</p>
-								<p class="text-sm text-white/80">{app.description}</p>
-							</li>
-						))}
-					</ul>
-				</div>
-				<div>
-					<h2 class="text-3xl">Headphones</h2>
-					<ul class="mt-4 ml-3">
-						{Headphones.map((app) => (
-							<li class="list-disc my-3 space-y-1">
-								<p>{app.name}</p>
-								<p class="text-sm text-white/80">{app.description}</p>
-							</li>
-						))}
-					</ul>
-				</div>
-				<div class="hidden">
-					<h2 class="text-3xl">Other</h2>
-					<ul class="mt-4 ml-3">
-						{Other.map((app) => (
-							<li class="list-disc my-3 space-y-1">
-								<p>{app.name}</p>
-								<p class="text-sm text-white/80">{app.description}</p>
-							</li>
-						))}
-					</ul>
+
+				<!-- Right content area with uses information -->
+				<div class="md:col-span-4 space-y-12">
+					<!-- Apps & Services Section -->
+					<div id="apps-services" class="scroll-mt-8">
+						<h2 class="text-2xl font-medium text-white mb-6">Apps & Services</h2>
+						<ul class="space-y-4">
+							{AppsServices.map((app) => (
+								<li class="grid grid-cols-1 text-sm gap-2">
+									<div class="space-y-1">
+										<p class="text-white">{app.name}</p>
+										<p class="text-[#939393]">{app.description}</p>
+									</div>
+								</li>
+							))}
+						</ul>
+					</div>
+
+					<!-- Gear Section -->
+					<div id="gear" class="scroll-mt-8">
+						<h2 class="text-2xl font-medium text-white mb-6">Gear</h2>
+						<ul class="space-y-4">
+							{Gear.map((item) => (
+								<li class="grid grid-cols-1 text-sm gap-2">
+									<div class="space-y-1">
+										<p class="text-white">{item.name}</p>
+										<p class="text-[#939393]">{item.description}</p>
+									</div>
+								</li>
+							))}
+						</ul>
+					</div>
+
+					<!-- Headphones Section -->
+					<div id="headphones" class="scroll-mt-8">
+						<h2 class="text-2xl font-medium text-white mb-6">Headphones</h2>
+						<ul class="space-y-4">
+							{Headphones.map((item) => (
+								<li class="grid grid-cols-1 text-sm gap-2">
+									<div class="space-y-1">
+										<p class="text-white">{item.name}</p>
+										<p class="text-[#939393]">{item.description}</p>
+									</div>
+								</li>
+							))}
+						</ul>
+					</div>
 				</div>
 			</div>
-            </div>
-        </div>
+		</div>
 	</section>
-</Layout>
+</LayoutLight>
 
+<style>
+	/* Smooth scrolling for anchor links */
+	html {
+		scroll-behavior: smooth;
+	}
+</style>
