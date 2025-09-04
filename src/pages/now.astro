@@ -3,7 +3,7 @@ import Head from '../components/Head.astro';
 import LayoutLight from '../layouts/LayoutLight.astro';
 import NowData from '../../public/data/now.json';
 
-import Hero from '../components/Hero.astro';
+import SmallHero from '../components/SmallHero.astro';
 const title = 'Now';
 const subtitle = "What I'm currently focusing on.";
 
@@ -13,7 +13,7 @@ const categories = ['Current Focus', 'Projects', 'Learning'];
 
 <Head title={title} />
 <LayoutLight>
-	<Hero title={title} subtitle={subtitle} />
+	<SmallHero title={title} subtitle={subtitle} />
 	<section class="pt-12 pb-16 px-4">
 		<div class="mt-6 max-w-screen-lg mx-auto">
 			<div class="grid grid-cols-1 md:grid-cols-5 gap-8">

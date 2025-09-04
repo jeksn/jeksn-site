@@ -1,7 +1,7 @@
 ---
 import Head from '../components/Head.astro';
 import LayoutLight from '../layouts/LayoutLight.astro';
-import Hero from '../components/Hero.astro';
+import SmallHero from '../components/SmallHero.astro';
 import AppsServices from '../../public/data/apps-services.json';
 import Gear from '../../public/data/gear.json';
 import Headphones from '../../public/data/headphones.json';
@@ -16,7 +16,7 @@ const categories = ['Apps & Services', 'Gear', 'Headphones'];
 
 <Head title={title} />
 <LayoutLight>
-	<Hero title={title} subtitle={subtitle} />
+	<SmallHero title={title} subtitle={subtitle} />
 	<section class="pt-12 pb-16 px-4">
 		<div class="mt-6 max-w-screen-lg mx-auto">
 			<div class="grid grid-cols-1 md:grid-cols-5 gap-8">
