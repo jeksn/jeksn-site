@@ -1,0 +1,106 @@
+---
+import Head from '../components/Head.astro';
+import LayoutLight from '../layouts/LayoutLight.astro';
+import Hero from '../components/Hero.astro';
+
+// Import the reading list data
+import ReadingListData from '../../public/data/reading-list.json';
+
+// Define book type
+interface Book {
+  title: string;
+  author: string;
+  favorite?: boolean;
+  format?: string;
+}
+
+const title = 'Reading List';
+const description = ReadingListData.metadata.description;
+
+// Get all years in descending order
+const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Number(a));
+
+---
+
+<Head title={title} />
+<LayoutLight>
+  <Hero title={title} subtitle={description} />
+  <section class="pt-12 pb-16 px-4">
+    <div class="mt-6 max-w-screen-lg mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <!-- Left sidebar with years -->
+        <div class="md:col-span-1">
+          <div class="sticky top-8 space-y-8">
+            <div>
+              <ul class="space-y-2">
+                <li>
+                  <a href="#currently-reading" class="text-sm text-[#939393] hover:text-white transition-colors">
+                    Currently Reading
+                  </a>
+                </li>
+                {years.map((year) => (
+                  <li>
+                    <a href={`#${year}`} class="text-sm text-[#939393] hover:text-white transition-colors">
+                      {year}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right content area with book listings -->
+        <div class="md:col-span-4 space-y-12">
+          <!-- Currently Reading Section -->
+          <div id="currently-reading" class="scroll-mt-8">
+            <h2 class="text-2xl font-medium text-white mb-6">Currently Reading</h2>
+            <ul class="space-y-4">
+              {ReadingListData.currentlyReading.map((book: Book) => (
+                <li class="grid grid-cols-1 text-sm gap-2">
+                  <div class="space-y-1">
+                    <p class="text-white flex items-center">
+                      {book.title}
+                    </p>
+                    <p class="text-[#939393]">{book.author}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Year sections */}
+          {years.map((year) => {
+            const booksForYear = ReadingListData.years[year as keyof typeof ReadingListData.years] || [];
+            return (
+              <div id={year} class="scroll-mt-8">
+                <h2 class="text-2xl font-medium text-white mb-6">{year}</h2>
+                <ul class="space-y-4">
+                  {booksForYear.map((book: Book) => (
+                    <li class="grid grid-cols-1 text-sm gap-2">
+                      <div class="space-y-1">
+                        <p class="text-white flex items-center">
+                          {book.title}
+                          {book.favorite && <span class="ml-2 text-yellow-400">⭐️</span>}
+                        </p>
+                        <p class="text-[#939393]">{book.author}</p>
+                        {book.format && <p class="text-[#666] text-xs italic">{book.format}</p>}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  </section>
+</LayoutLight>
+
+<style>
+	/* Smooth scrolling for anchor links */
+	html {
+		scroll-behavior: smooth;
+	}
+</style>
