@@ -7,43 +7,23 @@ import Layout from '../layouts/Layout.astro';
 <Head title="Home" />
 <Layout>
 	<section class="hero bg-zinc-900">
-		<div class="flex flex-col items-center justify-center h-[70vh] px-4">
-			<div class="flex flex-col items-start justify-center gap-6">
-				<div class="flex flex-col text-base gap-y-1 md:text-xl">
-					<h1 class="my-3 text-4xl md:text-8xl ease-linear duration-800">
-						jeksn<span class="pulse">.</span><a href="/about" class="opacity-20">me</a>
-					</h1>
-				</div>
+		<div class="flex flex-col items-center max-w-screen-lg mx-auto justify-center h-[60vh] px-4 -mt-[80px]">
+			<div class="flex flex-col text-center gap-y-3">
+				<h1 class="my-3 text-xl md:text-5xl font-inter font-light">
+					jeksn.me
+				</h1>
+				<p class="text-center text-sm md:text-base text-white/80"><span class="text-white">Frontend Developer</span> & <br><span class="text-white">Designer</span> from <br><span class="text-white">Stockholm</span></p>
 			</div>
 		</div>
 	</section>
 	
 </Layout>
 <style>
-	/* .hero {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(https://images.hdqwalls.com/download/digital-art-abstract-black-lines-minimalism-5k-q3-3840x2160.jpg);
-		background-image: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url(https://static.vecteezy.com/system/resources/previews/010/711/511/large_2x/abstract-background-design-using-wavy-line-pattern-in-white-color-black-background-3d-rendering-and-4k-size-free-photo.jpg);
+	.hero {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(https://images.hdqwalls.com/download/digital-art-abstract-black-lines-minimalism-5k-q3-3840x2160.jpg);
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-	} */
-
-	.pulse {
-		animation: pulse 2s ease-in-out infinite;
-	}
-
-	@keyframes pulse {
-		0% {
-			@apply text-white;
-		}
-
-		50% {
-			@apply text-white/20;
-		}
-
-		100% {
-			@apply text-white;
-		}
 	}
 </style>
