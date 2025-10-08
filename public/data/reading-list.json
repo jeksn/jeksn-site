@@ -4,10 +4,14 @@
     "description": "My list of books I've read and am currently reading."
   },
   "currentlyReading": [
-    {
-      "title": "Dark Wire",
-      "author": "Joseph Cox"
-    }
+	{
+		"title": "Shadow Ticket",
+		"author": "Thomas Pynchon"
+	},
+	{
+		"title": "Tranorna flyger söderut",
+		"author": "Lisa Ridzén"
+	}    
   ],
   "years": {
     "2025": [
@@ -112,18 +116,22 @@
 		"title": "Catching the Big Fish",
 		"author": "David Lynch"
 	  },
-	  {
+	{
 		"title": "Anathem",
 		"author": "Neal Stephenson"
-	  },
-	  {
+	},
+	{
 		"title": "Red Team Blues",
 		"author": "Cory Doctorow"
-	  },
-	  {
+	},
+	{
 		"title": "The Exorcist",
 		"author": "William Peter Blatty"
-	}
+	},
+		{
+			"title": "Dark Wire",
+			"author": "Joseph Cox"
+		}
     ],
     "2024": [
       {
