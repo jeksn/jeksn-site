@@ -1,853 +1,857 @@
 {
-  "metadata": {
-    "title": "Reading List",
-    "description": "My list of books I've read and am currently reading."
-  },
-  "currentlyReading": [
-	{
-		"title": "Shadow Ticket",
-		"author": "Thomas Pynchon"
+	"metadata": {
+		"title": "Reading List",
+		"description": "My list of books I've read and am currently reading."
 	},
-	{
-		"title": "Tranorna flyger söderut",
-		"author": "Lisa Ridzén"
-	}    
-  ],
-  "years": {
-    "2025": [
-      {
-        "title": "Stäppvargen",
-        "author": "Hermann Hesse"
-      },
-      {
-        "title": "The Hour of the Star",
-        "author": "Clarice Lispector"
-      },
-      {
-        "title": "Cryptonomicon",
-        "author": "Neal Stephenson"
-      },
-      {
-        "title": "The Consolation of Philosophy",
-        "author": "Boethius",
-        "favorite": true
-      },
-      {
-        "title": "Butcher's Crossing",
-        "author": "John Williams"
-      },
-      {
-        "title": "The Dispossessed",
-        "author": "Ursula K. Le Guin"
-      },
-      {
-        "title": "Sailing to Sarantium",
-        "author": "Guy Gavriel Kay"
-      },
-      {
-        "title": "How to Focus: A Monastic Guide for an Age of Distraction",
-        "author": "John Cassian"
-      },
-      {
-        "title": "The Courage to Be Disliked",
-        "author": "Ichiro Kishimi & Fumitake Koga"
-      },
-      {
-        "title": "Fahrenheit-182",
-        "author": "Mark Hoppus & Dan Ozzi"
-      },
-      {
-        "title": "The Crying of Lot 49",
-        "author": "Thomas Pynchon"
-      },
-      {
-        "title": "Lord of Emperors",
-        "author": "Guy Gavriel Kay"
-      },
-      {
-        "title": "Tortilla Flat",
-        "author": "John Steinbeck"
-      },
-      {
-        "title": "The Burnout Society",
-        "author": "Byung-Chul Han"
-      },
-      {
-        "title": "Iron John",
-        "author": "Robert Bly"
-      },
-      {
-        "title": "The Memory Police",
-        "author": "Yoko Ogawa"
-      },
-      {
-        "title": "Splendor",
-        "author": "Stefan Lindberg"
-      },
-      {
-        "title": "After Stoicism: Last Words of the Last Roman Philosopher",
-        "author": "Thomas M. Ward"
-      },
-      {
-        "title": "Om natten i Chile",
-        "author": "Roberto Bolaño"
-      },
-      {
-        "title": "Tracers in the Dark",
-        "author": "Andy Greenberg"
-      },
-      {
-        "title": "Competing in the Age of AI",
-        "author": "Marco Iansiti & Karim R. Lakhani"
-      },
-      {
-        "title": "The Catcher in the Rye",
-        "author": "J.D. Salinger"
-      },
-      {
-        "title": "Amusing Ourselves to Death",
-        "author": "Neil Postman"
-      },
-      {
-        "title": "Nuclear War: A Scenario",
-        "author": "Annie Jacobsen"
-      },
-	  {
-		"title": "Catching the Big Fish",
-		"author": "David Lynch"
-	  },
-	{
-		"title": "Anathem",
-		"author": "Neal Stephenson"
-	},
-	{
-		"title": "Red Team Blues",
-		"author": "Cory Doctorow"
-	},
-	{
-		"title": "The Exorcist",
-		"author": "William Peter Blatty"
-	},
+	"currentlyReading": [
 		{
-			"title": "Dark Wire",
-			"author": "Joseph Cox"
+			"title": "Shadow Ticket",
+			"author": "Thomas Pynchon"
+		},
+		{
+			"title": "Tranorna flyger söderut",
+			"author": "Lisa Ridzén"
 		}
-    ],
-    "2024": [
-      {
-        "title": "The Last Emperox",
-        "author": "John Scalzi"
-      },
-      {
-        "title": "The Yellow Wallpaper",
-        "author": "Charlotte Perkins Gilman"
-      },
-      {
-        "title": "The Three-Body Problem",
-        "author": "Cixin Liu"
-      },
-      {
-        "title": "The Prophet",
-        "author": "Khalil Gibran"
-      },
-      {
-        "title": "A Psalm for the Wild-Built",
-        "author": "Becky Chambers"
-      },
-      {
-        "title": "Fahrenheit 451",
-        "author": "Ray Bradbury"
-      },
-      {
-        "title": "The Talented Mr. Ripley",
-        "author": "Patricia Highsmith"
-      },
-      {
-        "title": "Fiktioner",
-        "author": "Jorge Luis Borges"
-      },
-      {
-        "title": "The Dark Forest",
-        "author": "Cixin Liu"
-      },
-      {
-        "title": "Bröderna Karamazov vol.2",
-        "author": "Fjodor Dostojevskij"
-      },
-      {
-        "title": "Mr. Mulliner Stories",
-        "author": "P.G. Wodehouse"
-      },
-      {
-        "title": "The PARA Method",
-        "author": "Tiago Forte"
-      },
-      {
-        "title": "The Metamorphosis",
-        "author": "Franz Kafka"
-      },
-      {
-        "title": "Death's End",
-        "author": "Cixin Liu"
-      },
-      {
-        "title": "The Things They Carried",
-        "author": "Tim O'Brien"
-      },
-      {
-        "title": "Revolten, Rörelsen, Refused",
-        "author": "Patrik Wirén"
-      },
-      {
-        "title": "Why Read?",
-        "author": "Mark Edmundson"
-      },
-      {
-        "title": "Stoner",
-        "author": "John Williams",
-        "favorite": true
-      },
-      {
-        "title": "In the Heart of the Heart of the Country",
-        "author": "William H. Gass"
-      },
-      {
-        "title": "The Annotated Hamlet",
-        "author": "William Shakespeare"
-      },
-      {
-        "title": "Lessons in Stoicism",
-        "author": "John Sellars"
-      },
-      {
-        "title": "The Wager",
-        "author": "David Grann"
-      },
-      {
-        "title": "Daily Rituals",
-        "author": "Mason Currey"
-      },
-      {
-        "title": "Sommarboken",
-        "author": "Tove Jansson"
-      },
-      {
-        "title": "Hands of Time",
-        "author": "Rebecca Struthers"
-      },
-      {
-        "title": "His Name was Death",
-        "author": "Rafael Bernal"
-      },
-      {
-        "title": "Meditations",
-        "author": "Marcus Aurelius"
-      },
-      {
-        "title": "Savage Gods",
-        "author": "Paul Kingsnorth"
-      },
-      {
-        "title": "Cartoons",
-        "author": "Kit Schluter"
-      },
-      {
-        "title": "White Nights & Bobok",
-        "author": "Fyodor Dostoyevsky"
-      },
-      {
-        "title": "Letters to a Young Poet",
-        "author": "Rainer Maria Rilke",
-        "favorite": true
-      },
-      {
-        "title": "Dune Messiah",
-        "author": "Frank Herbert"
-      },
-      {
-        "title": "Hard Rain Falling",
-        "author": "Don Carpenter"
-      },
-      {
-        "title": "The Screwtape Letters",
-        "author": "C.S. Lewis"
-      },
-      {
-        "title": "The Fellowship of the Ring",
-        "author": "J.R.R. Tolkien"
-      },
-      {
-        "title": "A Prayer for the Crown-Shy",
-        "author": "Becky Chambers"
-      },
-      {
-        "title": "Nicomachean Ethics",
-        "author": "Aristotle"
-      },
-      {
-        "title": "Blod Eld Död : En svensk metalhistoria",
-        "author": "Ika Johannesson & Jon Jefferson Klingberg"
-      },
-      {
-        "title": "Treasure Island",
-        "author": "Robert Louis Stevenson"
-      },
-      {
-        "title": "The Turn of the Screw",
-        "author": "Henry James"
-      },
-      {
-        "title": "We Have Always Lived in the Castle",
-        "author": "Shirley Jackson"
-      },
-      {
-        "title": "Digital Minimalism",
-        "author": "Cal Newport"
-      },
-      {
-        "title": "Den halvfärdiga himlen",
-        "author": "Tomas Tranströmer"
-      },
-      {
-        "title": "The Two Towers",
-        "author": "J.R.R. Tolkien"
-      },
-      {
-        "title": "The Return of the King",
-        "author": "J.R.R. Tolkien"
-      }
-    ],
-    "2023": [
-      {
-        "title": "Project Hail Mary",
-        "author": "Andy Weir"
-      },
-      {
-        "title": "Let Me Be Frank with You",
-        "author": "Richard Ford"
-      },
-      {
-        "title": "Poetry",
-        "author": "Wilfred Owen"
-      },
-      {
-        "title": "Steal Like an Artist",
-        "author": "Austin Kleon"
-      },
-      {
-        "title": "V",
-        "author": "Thomas Pynchon"
-      },
-      {
-        "title": "Slow Learner",
-        "author": "Thomas Pynchon"
-      },
-      {
-        "title": "Skunk Works",
-        "author": "Ben R. Rich & Leo Janos",
-        "favorite": true
-      },
-      {
-        "title": "You Are Not Expected to Understand This",
-        "author": "Torie Bosch"
-      },
-      {
-        "title": "The Road",
-        "author": "Cormac McCarthy"
-      },
-      {
-        "title": "Child of God",
-        "author": "Cormac McCarthy"
-      },
-      {
-        "title": "Bleeding Edge",
-        "author": "Thomas Pynchon"
-      },
-      {
-        "title": "How to Blow up a Pipeline",
-        "author": "Andreas Malm"
-      },
-      {
-        "title": "Crash",
-        "author": "J.G. Ballard"
-      },
-      {
-        "title": "The Time Machine Did It",
-        "author": "John Swartzwelder"
-      },
-      {
-        "title": "Be Mine",
-        "author": "Richard Ford"
-      },
-      {
-        "title": "Death of Democracy",
-        "author": "Benjamin Carter Hett"
-      },
-      {
-        "title": "Killers of the Flower Moon",
-        "author": "David Grann"
-      },
-      {
-        "title": "Sapiens",
-        "author": "Yuval Noah Harari"
-      },
-      {
-        "title": "Nazis and the Occult",
-        "author": "Paul Roland"
-      },
-      {
-        "title": "Breath: The New Science of a Lost Art",
-        "author": "James Nestor"
-      },
-      {
-        "title": "1177 B.C.: The Year Civilization Collapsed",
-        "author": "Eric H.Cline"
-      },
-      {
-        "title": "Invisible Cities",
-        "author": "Italo Calvino"
-      },
-      {
-        "title": "The Atrocity Exhibition",
-        "author": "J. G. Ballard"
-      },
-      {
-        "title": "Mason & Dixon",
-        "author": "Thomas Pynchon",
-        "favorite": true
-      },
-      {
-        "title": "Klätterbaronen",
-        "author": "Italo Calvino"
-      },
-      {
-        "title": "Friends of Eddie Coyle",
-        "author": "George V. Higgins"
-      },
-      {
-        "title": "Pan",
-        "author": "Knut Hamsun"
-      },
-      {
-        "title": "The Collapsing Empire",
-        "author": "John Scalzi"
-      },
-      {
-        "title": "The Consuming Fire",
-        "author": "John Scalzi"
-      }
-    ],
-    "2022": [
-      {
-        "title": "The Storyteller",
-        "author": "Dave Grohl",
-        "format": "audiobook"
-      },
-      {
-        "title": "Rendezvous with Rama",
-        "author": "Arthur C.Clarke"
-      },
-      {
-        "title": "Memoir: A Life in Computer Games",
-        "author": "Sid Meier"
-      },
-      {
-        "title": "The Darkest Web",
-        "author": "Eileen Ormsby"
-      },
-      {
-        "title": "Underworld",
-        "author": "Don DeLillo"
-      },
-      {
-        "title": "Enemy of all Mankind",
-        "author": "Steven Johnson"
-      },
-      {
-        "title": "Our Band Could Be Your Life",
-        "author": "Michael Azerrad",
-        "favorite": true
-      },
-      {
-        "title": "Lost Face",
-        "author": "Jack London"
-      },
-      {
-        "title": "Vineland",
-        "author": "Thomas Pynchon"
-      },
-      {
-        "title": "The Descent",
-        "author": "Jeff Long"
-      },
-      {
-        "title": "Laughter in the Dark",
-        "author": "Vladimir Nabokov"
-      },
-      {
-        "title": "Min vän Maigret",
-        "author": "Georges Simenon"
-      },
-      {
-        "title": "Hell Yeah or No",
-        "author": "Derek Sivers"
-      },
-      {
-        "title": "All the Pretty Horses",
-        "author": "Cormac McCarthy"
-      }
-    ],
-    "2021": [
-      {
-        "title": "Piranesi",
-        "author": "Susanna Clarke"
-      },
-      {
-        "title": "Animal Farm",
-        "author": "George Orwell"
-      },
-      {
-        "title": "American Psycho",
-        "author": "Bret Easton Ellis"
-      },
-      {
-        "title": "Cows",
-        "author": "Matthew Stokoe"
-      },
-      {
-        "title": "Dreaming in Chinese",
-        "author": "Deborah Fallows"
-      },
-      {
-        "title": "No Longer Human",
-        "author": "Osamu Dazai"
-      },
-      {
-        "title": "Shoe Dog",
-        "author": "Phil Knight"
-      },
-      {
-        "title": "Dune",
-        "author": "Frank Herbert"
-      },
-      {
-        "title": "Turtle Island",
-        "author": "Gary Snyder",
-        "format": "poetry"
-      },
-      {
-        "title": "The Silence",
-        "author": "Don DeLillo"
-      },
-      {
-        "title": "Gravity's Rainbow",
-        "author": "Thomas Pynchon",
-        "favorite": true
-      },
-      {
-        "title": "The Sluts",
-        "author": "Dennis Cooper"
-      },
-      {
-        "title": "The Old Man and the Sea",
-        "author": "Ernest Hemingway"
-      },
-      {
-        "title": "Blood Meridian",
-        "author": "Cormac McCarthy"
-      },
-      {
-        "title": "Norwegian Wood",
-        "author": "Haruki Murakami"
-      },
-      {
-        "title": "På väg från Atocha",
-        "author": "Ben Lerner"
-      },
-      {
-        "title": "Jamilia",
-        "author": "Chinghiz Aitmatov"
-      },
-      {
-        "title": "Silence",
-        "author": "Shusaki Endo"
-      },
-      {
-        "title": "Petersburgnoveller",
-        "author": "Nikolaj Gogol"
-      },
-      {
-        "title": "Strange Angel",
-        "author": "George Pendle"
-      },
-      {
-        "title": "Bröderna Karamazov vol.1",
-        "author": "Fjodor Dostojevskij"
-      }
-    ],
-    "2020": [
-      {
-        "title": "Pale Fire",
-        "author": "Vladimir Nabokov"
-      },
-      {
-        "title": "Game Over",
-        "author": "Viktor Johansson"
-      },
-      {
-        "title": "Passionen enligt GH",
-        "author": "Clarice Lispector"
-      },
-      {
-        "title": "Eterneller",
-        "author": "Viktor Johansson"
-      },
-      {
-        "title": "High Windows",
-        "author": "Philip Larkin",
-        "format": "poetry"
-      },
-      {
-        "title": "The Vegetarian",
-        "author": "Han Kang"
-      },
-      {
-        "title": "The Armageddon Conspiracy",
-        "author": "Mike Hockney"
-      },
-      {
-        "title": "The Pearl",
-        "author": "John Steinbeck"
-      },
-      {
-        "title": "Masters of Doom",
-        "author": "David Kushner",
-        "favorite": true
-      },
-      {
-        "title": "How to disappear and never be found",
-        "author": "Doug Richmond"
-      },
-      {
-        "title": "Gun Love",
-        "author": "Jennifer Clement"
-      },
-      {
-        "title": "Hemlig Lycka",
-        "author": "Clarice Lispector"
-      },
-      {
-        "title": "My Man Jeeves",
-        "author": "P.G. Wodehouse"
-      },
-      {
-        "title": "With my Dog-Eyes",
-        "author": "Hilda Hilst"
-      },
-      {
-        "title": "Old Man's War",
-        "author": "John Scalzi"
-      },
-      {
-        "title": "Neuromancer",
-        "author": "William Gibson"
-      },
-      {
-        "title": "Blåsa liv",
-        "author": "Clarice Lispector"
-      },
-      {
-        "title": "Deaf Republic",
-        "author": "Ilya Kaminsky",
-        "format": "poetry"
-      },
-      {
-        "title": "Averno",
-        "author": "Louise Glück",
-        "format": "poetry"
-      },
-      {
-        "title": "Handbok i livets konst",
-        "author": "Epiktetos"
-      },
-      {
-        "title": "The Writing Life",
-        "author": "Annie Dillard"
-      },
-      {
-        "title": "Lay of the Land",
-        "author": "Richard Ford"
-      }
-    ],
-    "2019": [
-      {
-        "title": "1793",
-        "author": "Niklas Natt och Dag"
-      },
-      {
-        "title": "Mao II",
-        "author": "Don DeLillo"
-      },
-      {
-        "title": "Levande vatten",
-        "author": "Clarice Lispector",
-        "favorite": true
-      }
-    ],
-    "2018": [
-      {
-        "title": "Snow Crash",
-        "author": "Neal Stephenson"
-      },
-      {
-        "title": "Ivan Iljitjs död",
-        "author": "Leo Tolstoj"
-      },
-      {
-        "title": "Slakthus 5",
-        "author": "Kurt Vonnegut"
-      },
-      {
-        "title": "Philosophy",
-        "author": "Kevin Perry"
-      },
-      {
-        "title": "Nytt & Gammalt & Gralstänk",
-        "author": "Gustaf Fröding",
-        "format": "poetry"
-      },
-      {
-        "title": "The Subtle Art of Not Giving a F*ck",
-        "author": "Mark Manson"
-      },
-      {
-        "title": "Pedro Paramo",
-        "author": "Juan Rulfo"
-      },
-      {
-        "title": "Vad jag pratar om när jag pratar om löpning",
-        "author": "Haruki Murakami"
-      },
-      {
-        "title": "Fragment för att bemästra döden",
-        "author": "Alejandra Pizarnik",
-        "format": "poetry"
-      },
-      {
-        "title": "The Haunted Bookshop",
-        "author": "Christopher Morley",
-        "favorite": true
-      },
-      {
-        "title": "Siddhartha",
-        "author": "Hermann Hesse"
-      }
-    ],
-    "2017": [
-      {
-        "title": "The Eye of the World",
-        "author": "Robert Jordan"
-      },
-      {
-        "title": "White Noise",
-        "author": "Don Delillo"
-      },
-      {
-        "title": "Ariel",
-        "author": "Sylvia Plath"
-      },
-      {
-        "title": "The Bell Jar",
-        "author": "Sylvia Plath"
-      },
-      {
-        "title": "The Secret History of Twin Peaks",
-        "author": "Mark Frost"
-      },
-      {
-        "title": "American Gods",
-        "author": "Neil Gaiman"
-      },
-      {
-        "title": "Sleeping Giants",
-        "author": "Sylvain Neuvel"
-      },
-      {
-        "title": "Waking Gods",
-        "author": "Sylvain Neuvel"
-      },
-      {
-        "title": "Zer0es",
-        "author": "Chuck Wendig"
-      },
-      {
-        "title": "The Stars are Legion",
-        "author": "Kameron Hurley"
-      },
-      {
-        "title": "The Alchemist",
-        "author": "Paulo Coelho"
-      },
-      {
-        "title": "The Stranger",
-        "author": "Albert Camus"
-      },
-      {
-        "title": "Will You Please Be Quiet, Please?",
-        "author": "Raymond Carver"
-      },
-      {
-        "title": "Cathedral",
-        "author": "Raymond Carver"
-      },
-      {
-        "title": "The Sea",
-        "author": "John Banville",
-        "favorite": true
-      },
-      {
-        "title": "Dark Lies The Island",
-        "author": "Kevin Barry"
-      },
-      {
-        "title": "Prince of Thorns",
-        "author": "Mark Lawrence"
-      },
-      {
-        "title": "All the Birds in the Sky",
-        "author": "Charlie Jane Anders"
-      },
-      {
-        "title": "1922",
-        "author": "Stephen King"
-      },
-      {
-        "title": "Annihilation",
-        "author": "Jeff Vandermeer"
-      },
-      {
-        "title": "Authority",
-        "author": "Jeff Vandermeer"
-      }
-    ],
-    "2016": [
-      {
-        "title": "The Sportswriter",
-        "author": "Richard Ford",
-        "favorite": true
-      },
-      {
-        "title": "Independence Day",
-        "author": "Richard Ford"
-      },
-      {
-        "title": "Brave New World",
-        "author": "Aldous Huxley"
-      },
-      {
-        "title": "The Collected Poems",
-        "author": "Sylvia Plath"
-      }
-    ]
-  }
+	],
+	"years": {
+		"2025": [
+			{
+				"title": "Stäppvargen",
+				"author": "Hermann Hesse"
+			},
+			{
+				"title": "The Hour of the Star",
+				"author": "Clarice Lispector"
+			},
+			{
+				"title": "Cryptonomicon",
+				"author": "Neal Stephenson"
+			},
+			{
+				"title": "The Consolation of Philosophy",
+				"author": "Boethius",
+				"favorite": true
+			},
+			{
+				"title": "Butcher's Crossing",
+				"author": "John Williams"
+			},
+			{
+				"title": "The Dispossessed",
+				"author": "Ursula K. Le Guin"
+			},
+			{
+				"title": "Sailing to Sarantium",
+				"author": "Guy Gavriel Kay"
+			},
+			{
+				"title": "How to Focus: A Monastic Guide for an Age of Distraction",
+				"author": "John Cassian"
+			},
+			{
+				"title": "The Courage to Be Disliked",
+				"author": "Ichiro Kishimi & Fumitake Koga"
+			},
+			{
+				"title": "Fahrenheit-182",
+				"author": "Mark Hoppus & Dan Ozzi"
+			},
+			{
+				"title": "The Crying of Lot 49",
+				"author": "Thomas Pynchon"
+			},
+			{
+				"title": "Lord of Emperors",
+				"author": "Guy Gavriel Kay"
+			},
+			{
+				"title": "Tortilla Flat",
+				"author": "John Steinbeck"
+			},
+			{
+				"title": "The Burnout Society",
+				"author": "Byung-Chul Han"
+			},
+			{
+				"title": "Iron John",
+				"author": "Robert Bly"
+			},
+			{
+				"title": "The Memory Police",
+				"author": "Yoko Ogawa"
+			},
+			{
+				"title": "Splendor",
+				"author": "Stefan Lindberg"
+			},
+			{
+				"title": "After Stoicism: Last Words of the Last Roman Philosopher",
+				"author": "Thomas M. Ward"
+			},
+			{
+				"title": "Om natten i Chile",
+				"author": "Roberto Bolaño"
+			},
+			{
+				"title": "Tracers in the Dark",
+				"author": "Andy Greenberg"
+			},
+			{
+				"title": "Competing in the Age of AI",
+				"author": "Marco Iansiti & Karim R. Lakhani"
+			},
+			{
+				"title": "The Catcher in the Rye",
+				"author": "J.D. Salinger"
+			},
+			{
+				"title": "Amusing Ourselves to Death",
+				"author": "Neil Postman"
+			},
+			{
+				"title": "Nuclear War: A Scenario",
+				"author": "Annie Jacobsen"
+			},
+			{
+				"title": "Catching the Big Fish",
+				"author": "David Lynch"
+			},
+			{
+				"title": "Anathem",
+				"author": "Neal Stephenson"
+			},
+			{
+				"title": "Red Team Blues",
+				"author": "Cory Doctorow"
+			},
+			{
+				"title": "The Exorcist",
+				"author": "William Peter Blatty"
+			},
+			{
+				"title": "Dark Wire",
+				"author": "Joseph Cox"
+			},
+			{
+				"title": "Tranorna flyger söderut",
+				"author": "Lisa Ridzén"
+			}
+		],
+		"2024": [
+			{
+				"title": "The Last Emperox",
+				"author": "John Scalzi"
+			},
+			{
+				"title": "The Yellow Wallpaper",
+				"author": "Charlotte Perkins Gilman"
+			},
+			{
+				"title": "The Three-Body Problem",
+				"author": "Cixin Liu"
+			},
+			{
+				"title": "The Prophet",
+				"author": "Khalil Gibran"
+			},
+			{
+				"title": "A Psalm for the Wild-Built",
+				"author": "Becky Chambers"
+			},
+			{
+				"title": "Fahrenheit 451",
+				"author": "Ray Bradbury"
+			},
+			{
+				"title": "The Talented Mr. Ripley",
+				"author": "Patricia Highsmith"
+			},
+			{
+				"title": "Fiktioner",
+				"author": "Jorge Luis Borges"
+			},
+			{
+				"title": "The Dark Forest",
+				"author": "Cixin Liu"
+			},
+			{
+				"title": "Bröderna Karamazov vol.2",
+				"author": "Fjodor Dostojevskij"
+			},
+			{
+				"title": "Mr. Mulliner Stories",
+				"author": "P.G. Wodehouse"
+			},
+			{
+				"title": "The PARA Method",
+				"author": "Tiago Forte"
+			},
+			{
+				"title": "The Metamorphosis",
+				"author": "Franz Kafka"
+			},
+			{
+				"title": "Death's End",
+				"author": "Cixin Liu"
+			},
+			{
+				"title": "The Things They Carried",
+				"author": "Tim O'Brien"
+			},
+			{
+				"title": "Revolten, Rörelsen, Refused",
+				"author": "Patrik Wirén"
+			},
+			{
+				"title": "Why Read?",
+				"author": "Mark Edmundson"
+			},
+			{
+				"title": "Stoner",
+				"author": "John Williams",
+				"favorite": true
+			},
+			{
+				"title": "In the Heart of the Heart of the Country",
+				"author": "William H. Gass"
+			},
+			{
+				"title": "The Annotated Hamlet",
+				"author": "William Shakespeare"
+			},
+			{
+				"title": "Lessons in Stoicism",
+				"author": "John Sellars"
+			},
+			{
+				"title": "The Wager",
+				"author": "David Grann"
+			},
+			{
+				"title": "Daily Rituals",
+				"author": "Mason Currey"
+			},
+			{
+				"title": "Sommarboken",
+				"author": "Tove Jansson"
+			},
+			{
+				"title": "Hands of Time",
+				"author": "Rebecca Struthers"
+			},
+			{
+				"title": "His Name was Death",
+				"author": "Rafael Bernal"
+			},
+			{
+				"title": "Meditations",
+				"author": "Marcus Aurelius"
+			},
+			{
+				"title": "Savage Gods",
+				"author": "Paul Kingsnorth"
+			},
+			{
+				"title": "Cartoons",
+				"author": "Kit Schluter"
+			},
+			{
+				"title": "White Nights & Bobok",
+				"author": "Fyodor Dostoyevsky"
+			},
+			{
+				"title": "Letters to a Young Poet",
+				"author": "Rainer Maria Rilke",
+				"favorite": true
+			},
+			{
+				"title": "Dune Messiah",
+				"author": "Frank Herbert"
+			},
+			{
+				"title": "Hard Rain Falling",
+				"author": "Don Carpenter"
+			},
+			{
+				"title": "The Screwtape Letters",
+				"author": "C.S. Lewis"
+			},
+			{
+				"title": "The Fellowship of the Ring",
+				"author": "J.R.R. Tolkien"
+			},
+			{
+				"title": "A Prayer for the Crown-Shy",
+				"author": "Becky Chambers"
+			},
+			{
+				"title": "Nicomachean Ethics",
+				"author": "Aristotle"
+			},
+			{
+				"title": "Blod Eld Död : En svensk metalhistoria",
+				"author": "Ika Johannesson & Jon Jefferson Klingberg"
+			},
+			{
+				"title": "Treasure Island",
+				"author": "Robert Louis Stevenson"
+			},
+			{
+				"title": "The Turn of the Screw",
+				"author": "Henry James"
+			},
+			{
+				"title": "We Have Always Lived in the Castle",
+				"author": "Shirley Jackson"
+			},
+			{
+				"title": "Digital Minimalism",
+				"author": "Cal Newport"
+			},
+			{
+				"title": "Den halvfärdiga himlen",
+				"author": "Tomas Tranströmer"
+			},
+			{
+				"title": "The Two Towers",
+				"author": "J.R.R. Tolkien"
+			},
+			{
+				"title": "The Return of the King",
+				"author": "J.R.R. Tolkien"
+			}
+		],
+		"2023": [
+			{
+				"title": "Project Hail Mary",
+				"author": "Andy Weir"
+			},
+			{
+				"title": "Let Me Be Frank with You",
+				"author": "Richard Ford"
+			},
+			{
+				"title": "Poetry",
+				"author": "Wilfred Owen"
+			},
+			{
+				"title": "Steal Like an Artist",
+				"author": "Austin Kleon"
+			},
+			{
+				"title": "V",
+				"author": "Thomas Pynchon"
+			},
+			{
+				"title": "Slow Learner",
+				"author": "Thomas Pynchon"
+			},
+			{
+				"title": "Skunk Works",
+				"author": "Ben R. Rich & Leo Janos",
+				"favorite": true
+			},
+			{
+				"title": "You Are Not Expected to Understand This",
+				"author": "Torie Bosch"
+			},
+			{
+				"title": "The Road",
+				"author": "Cormac McCarthy"
+			},
+			{
+				"title": "Child of God",
+				"author": "Cormac McCarthy"
+			},
+			{
+				"title": "Bleeding Edge",
+				"author": "Thomas Pynchon"
+			},
+			{
+				"title": "How to Blow up a Pipeline",
+				"author": "Andreas Malm"
+			},
+			{
+				"title": "Crash",
+				"author": "J.G. Ballard"
+			},
+			{
+				"title": "The Time Machine Did It",
+				"author": "John Swartzwelder"
+			},
+			{
+				"title": "Be Mine",
+				"author": "Richard Ford"
+			},
+			{
+				"title": "Death of Democracy",
+				"author": "Benjamin Carter Hett"
+			},
+			{
+				"title": "Killers of the Flower Moon",
+				"author": "David Grann"
+			},
+			{
+				"title": "Sapiens",
+				"author": "Yuval Noah Harari"
+			},
+			{
+				"title": "Nazis and the Occult",
+				"author": "Paul Roland"
+			},
+			{
+				"title": "Breath: The New Science of a Lost Art",
+				"author": "James Nestor"
+			},
+			{
+				"title": "1177 B.C.: The Year Civilization Collapsed",
+				"author": "Eric H.Cline"
+			},
+			{
+				"title": "Invisible Cities",
+				"author": "Italo Calvino"
+			},
+			{
+				"title": "The Atrocity Exhibition",
+				"author": "J. G. Ballard"
+			},
+			{
+				"title": "Mason & Dixon",
+				"author": "Thomas Pynchon",
+				"favorite": true
+			},
+			{
+				"title": "Klätterbaronen",
+				"author": "Italo Calvino"
+			},
+			{
+				"title": "Friends of Eddie Coyle",
+				"author": "George V. Higgins"
+			},
+			{
+				"title": "Pan",
+				"author": "Knut Hamsun"
+			},
+			{
+				"title": "The Collapsing Empire",
+				"author": "John Scalzi"
+			},
+			{
+				"title": "The Consuming Fire",
+				"author": "John Scalzi"
+			}
+		],
+		"2022": [
+			{
+				"title": "The Storyteller",
+				"author": "Dave Grohl",
+				"format": "audiobook"
+			},
+			{
+				"title": "Rendezvous with Rama",
+				"author": "Arthur C.Clarke"
+			},
+			{
+				"title": "Memoir: A Life in Computer Games",
+				"author": "Sid Meier"
+			},
+			{
+				"title": "The Darkest Web",
+				"author": "Eileen Ormsby"
+			},
+			{
+				"title": "Underworld",
+				"author": "Don DeLillo"
+			},
+			{
+				"title": "Enemy of all Mankind",
+				"author": "Steven Johnson"
+			},
+			{
+				"title": "Our Band Could Be Your Life",
+				"author": "Michael Azerrad",
+				"favorite": true
+			},
+			{
+				"title": "Lost Face",
+				"author": "Jack London"
+			},
+			{
+				"title": "Vineland",
+				"author": "Thomas Pynchon"
+			},
+			{
+				"title": "The Descent",
+				"author": "Jeff Long"
+			},
+			{
+				"title": "Laughter in the Dark",
+				"author": "Vladimir Nabokov"
+			},
+			{
+				"title": "Min vän Maigret",
+				"author": "Georges Simenon"
+			},
+			{
+				"title": "Hell Yeah or No",
+				"author": "Derek Sivers"
+			},
+			{
+				"title": "All the Pretty Horses",
+				"author": "Cormac McCarthy"
+			}
+		],
+		"2021": [
+			{
+				"title": "Piranesi",
+				"author": "Susanna Clarke"
+			},
+			{
+				"title": "Animal Farm",
+				"author": "George Orwell"
+			},
+			{
+				"title": "American Psycho",
+				"author": "Bret Easton Ellis"
+			},
+			{
+				"title": "Cows",
+				"author": "Matthew Stokoe"
+			},
+			{
+				"title": "Dreaming in Chinese",
+				"author": "Deborah Fallows"
+			},
+			{
+				"title": "No Longer Human",
+				"author": "Osamu Dazai"
+			},
+			{
+				"title": "Shoe Dog",
+				"author": "Phil Knight"
+			},
+			{
+				"title": "Dune",
+				"author": "Frank Herbert"
+			},
+			{
+				"title": "Turtle Island",
+				"author": "Gary Snyder",
+				"format": "poetry"
+			},
+			{
+				"title": "The Silence",
+				"author": "Don DeLillo"
+			},
+			{
+				"title": "Gravity's Rainbow",
+				"author": "Thomas Pynchon",
+				"favorite": true
+			},
+			{
+				"title": "The Sluts",
+				"author": "Dennis Cooper"
+			},
+			{
+				"title": "The Old Man and the Sea",
+				"author": "Ernest Hemingway"
+			},
+			{
+				"title": "Blood Meridian",
+				"author": "Cormac McCarthy"
+			},
+			{
+				"title": "Norwegian Wood",
+				"author": "Haruki Murakami"
+			},
+			{
+				"title": "På väg från Atocha",
+				"author": "Ben Lerner"
+			},
+			{
+				"title": "Jamilia",
+				"author": "Chinghiz Aitmatov"
+			},
+			{
+				"title": "Silence",
+				"author": "Shusaki Endo"
+			},
+			{
+				"title": "Petersburgnoveller",
+				"author": "Nikolaj Gogol"
+			},
+			{
+				"title": "Strange Angel",
+				"author": "George Pendle"
+			},
+			{
+				"title": "Bröderna Karamazov vol.1",
+				"author": "Fjodor Dostojevskij"
+			}
+		],
+		"2020": [
+			{
+				"title": "Pale Fire",
+				"author": "Vladimir Nabokov"
+			},
+			{
+				"title": "Game Over",
+				"author": "Viktor Johansson"
+			},
+			{
+				"title": "Passionen enligt GH",
+				"author": "Clarice Lispector"
+			},
+			{
+				"title": "Eterneller",
+				"author": "Viktor Johansson"
+			},
+			{
+				"title": "High Windows",
+				"author": "Philip Larkin",
+				"format": "poetry"
+			},
+			{
+				"title": "The Vegetarian",
+				"author": "Han Kang"
+			},
+			{
+				"title": "The Armageddon Conspiracy",
+				"author": "Mike Hockney"
+			},
+			{
+				"title": "The Pearl",
+				"author": "John Steinbeck"
+			},
+			{
+				"title": "Masters of Doom",
+				"author": "David Kushner",
+				"favorite": true
+			},
+			{
+				"title": "How to disappear and never be found",
+				"author": "Doug Richmond"
+			},
+			{
+				"title": "Gun Love",
+				"author": "Jennifer Clement"
+			},
+			{
+				"title": "Hemlig Lycka",
+				"author": "Clarice Lispector"
+			},
+			{
+				"title": "My Man Jeeves",
+				"author": "P.G. Wodehouse"
+			},
+			{
+				"title": "With my Dog-Eyes",
+				"author": "Hilda Hilst"
+			},
+			{
+				"title": "Old Man's War",
+				"author": "John Scalzi"
+			},
+			{
+				"title": "Neuromancer",
+				"author": "William Gibson"
+			},
+			{
+				"title": "Blåsa liv",
+				"author": "Clarice Lispector"
+			},
+			{
+				"title": "Deaf Republic",
+				"author": "Ilya Kaminsky",
+				"format": "poetry"
+			},
+			{
+				"title": "Averno",
+				"author": "Louise Glück",
+				"format": "poetry"
+			},
+			{
+				"title": "Handbok i livets konst",
+				"author": "Epiktetos"
+			},
+			{
+				"title": "The Writing Life",
+				"author": "Annie Dillard"
+			},
+			{
+				"title": "Lay of the Land",
+				"author": "Richard Ford"
+			}
+		],
+		"2019": [
+			{
+				"title": "1793",
+				"author": "Niklas Natt och Dag"
+			},
+			{
+				"title": "Mao II",
+				"author": "Don DeLillo"
+			},
+			{
+				"title": "Levande vatten",
+				"author": "Clarice Lispector",
+				"favorite": true
+			}
+		],
+		"2018": [
+			{
+				"title": "Snow Crash",
+				"author": "Neal Stephenson"
+			},
+			{
+				"title": "Ivan Iljitjs död",
+				"author": "Leo Tolstoj"
+			},
+			{
+				"title": "Slakthus 5",
+				"author": "Kurt Vonnegut"
+			},
+			{
+				"title": "Philosophy",
+				"author": "Kevin Perry"
+			},
+			{
+				"title": "Nytt & Gammalt & Gralstänk",
+				"author": "Gustaf Fröding",
+				"format": "poetry"
+			},
+			{
+				"title": "The Subtle Art of Not Giving a F*ck",
+				"author": "Mark Manson"
+			},
+			{
+				"title": "Pedro Paramo",
+				"author": "Juan Rulfo"
+			},
+			{
+				"title": "Vad jag pratar om när jag pratar om löpning",
+				"author": "Haruki Murakami"
+			},
+			{
+				"title": "Fragment för att bemästra döden",
+				"author": "Alejandra Pizarnik",
+				"format": "poetry"
+			},
+			{
+				"title": "The Haunted Bookshop",
+				"author": "Christopher Morley",
+				"favorite": true
+			},
+			{
+				"title": "Siddhartha",
+				"author": "Hermann Hesse"
+			}
+		],
+		"2017": [
+			{
+				"title": "The Eye of the World",
+				"author": "Robert Jordan"
+			},
+			{
+				"title": "White Noise",
+				"author": "Don Delillo"
+			},
+			{
+				"title": "Ariel",
+				"author": "Sylvia Plath"
+			},
+			{
+				"title": "The Bell Jar",
+				"author": "Sylvia Plath"
+			},
+			{
+				"title": "The Secret History of Twin Peaks",
+				"author": "Mark Frost"
+			},
+			{
+				"title": "American Gods",
+				"author": "Neil Gaiman"
+			},
+			{
+				"title": "Sleeping Giants",
+				"author": "Sylvain Neuvel"
+			},
+			{
+				"title": "Waking Gods",
+				"author": "Sylvain Neuvel"
+			},
+			{
+				"title": "Zer0es",
+				"author": "Chuck Wendig"
+			},
+			{
+				"title": "The Stars are Legion",
+				"author": "Kameron Hurley"
+			},
+			{
+				"title": "The Alchemist",
+				"author": "Paulo Coelho"
+			},
+			{
+				"title": "The Stranger",
+				"author": "Albert Camus"
+			},
+			{
+				"title": "Will You Please Be Quiet, Please?",
+				"author": "Raymond Carver"
+			},
+			{
+				"title": "Cathedral",
+				"author": "Raymond Carver"
+			},
+			{
+				"title": "The Sea",
+				"author": "John Banville",
+				"favorite": true
+			},
+			{
+				"title": "Dark Lies The Island",
+				"author": "Kevin Barry"
+			},
+			{
+				"title": "Prince of Thorns",
+				"author": "Mark Lawrence"
+			},
+			{
+				"title": "All the Birds in the Sky",
+				"author": "Charlie Jane Anders"
+			},
+			{
+				"title": "1922",
+				"author": "Stephen King"
+			},
+			{
+				"title": "Annihilation",
+				"author": "Jeff Vandermeer"
+			},
+			{
+				"title": "Authority",
+				"author": "Jeff Vandermeer"
+			}
+		],
+		"2016": [
+			{
+				"title": "The Sportswriter",
+				"author": "Richard Ford",
+				"favorite": true
+			},
+			{
+				"title": "Independence Day",
+				"author": "Richard Ford"
+			},
+			{
+				"title": "Brave New World",
+				"author": "Aldous Huxley"
+			},
+			{
+				"title": "The Collected Poems",
+				"author": "Sylvia Plath"
+			}
+		]
+	}
 }
