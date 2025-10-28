@@ -6,28 +6,21 @@ import Layout from '../layouts/Layout.astro';
 
 <Head title="Home" />
 <Layout>
-	<section class="border-b border-neutral-900 animate-gradient" style="background: linear-gradient(90deg, #1d4ed8, #4678b6, #1d4ed8); background-size: 200% auto;">
+	<section class="border-b border-neutral-900 hero">
 		<div class="flex flex-col items-center max-w-screen-lg mx-auto justify-center h-[60vh] px-4 -mt-[80px]">
 			<div class="flex flex-col items-center text-center gap-y-3">
-				<h1 class="hidden">jek.sn - software developer and designer</h1>
-				<h2 class="py-2 text-3xl md:text-5xl font-mono text-white">
-					design > develop > ship
-				</h2>
+				<h1 class="py-2 text-3xl md:text-5xl font-mono text-white">jek.sn</h1>
 			</div>
 		</div>
 	</section>
 	
 </Layout>
 <style>
-	@keyframes gradient {
-		0% {
-			background-position: 0% center;
-		}
-		100% {
-			background-position: 200% center;
-		}
-	}
-	.animate-gradient {
-		animation: gradient 12s linear infinite;
+	.hero {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/mesh-gradient(1).png');
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
 	}
 </style>
