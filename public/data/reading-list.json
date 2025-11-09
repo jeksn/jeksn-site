@@ -7,10 +7,6 @@
 		{
 			"title": "Shadow Ticket",
 			"author": "Thomas Pynchon"
-		},
-		{
-			"title": "Empire of AI",
-			"author": "Karen Hao"
 		}
 	],
 	"years": {
@@ -139,7 +135,11 @@
 			{
 			"title": "Enshittification: Why Everything Suddenly Got Worse and What to Do About It",
 			"author": "Cory Doctorow"
-			}
+			},
+			{
+			"title": "Empire of AI",
+			"author": "Karen Hao"
+		}
 		],
 		"2024": [
 			{
