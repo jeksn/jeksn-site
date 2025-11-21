@@ -9,12 +9,12 @@
 			"author": "Thomas Pynchon"
 		},
 		{
-			"title": "Svarta ballader",
+			"title": "Kolarvisor",
 			"author": "Dan Andersson"
 		},
 		{
-			"title": "Kolarvisor",
-			"author": "Dan Andersson"
+			"author": "Ted Chiang",
+			"title": "Stories of Your Life and Others"
 		}
 	],
 	"years": {
@@ -147,6 +147,10 @@
 			{
 			"title": "Empire of AI",
 			"author": "Karen Hao"
+			},
+			{
+			"title": "Svarta ballader",
+			"author": "Dan Andersson"
 		}
 		],
 		"2024": [
