@@ -5,10 +5,6 @@
 	},
 	"currentlyReading": [
 		{
-			"title": "Shadow Ticket",
-			"author": "Thomas Pynchon"
-		},
-		{
 			"title": "Kolarvisor",
 			"author": "Dan Andersson"
 		},
@@ -151,7 +147,19 @@
 			{
 			"title": "Svarta ballader",
 			"author": "Dan Andersson"
-		}
+			},
+			{
+			"title": "Shadow Ticket",
+			"author": "Thomas Pynchon"
+			},
+			{
+				"title": "A Short Stay in Hell",
+				"author": "Steven L. Peck"
+			},
+			{
+				"title": "The Haar",
+				"author": "David Sodergren"
+			}
 		],
 		"2024": [
 			{
