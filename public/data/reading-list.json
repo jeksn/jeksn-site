@@ -4,22 +4,10 @@
 		"description": "My list of books I've read and am currently reading."
 	},
 	"currentlyReading": [
-		{
-			"title": "Kolarvisor",
-			"author": "Dan Andersson"
-		},
-		{
-			"author": "Ted Chiang",
-			"title": "Stories of Your Life and Others"
-		},
-		{
-			"title": "The Divine Farce",
-			"author": "Michael S.A. Graziano"
-		},
-		{
-			"title": "Automatic Noodle",
-			"author": "Annalee Newitz"
-		}
+	{
+		"title": "The Master and Margarita",
+		"author" : "Mikhail Bulgakov"
+	}
 	],
 	"years": {
 		"2025": [
@@ -167,6 +155,22 @@
 			{
 				"title": "The Haar",
 				"author": "David Sodergren"
+			},
+			{
+			"title": "Kolarvisor",
+			"author": "Dan Andersson"
+			},
+			{
+				"author": "Ted Chiang",
+				"title": "Stories of Your Life and Others"
+			},
+			{
+				"title": "The Divine Farce",
+				"author": "Michael S.A. Graziano"
+			},
+			{
+				"title": "Automatic Noodle",
+				"author": "Annalee Newitz"
 			}
 		],
 		"2024": [
