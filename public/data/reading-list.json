@@ -7,6 +7,10 @@
 	{
 		"title": "The Master and Margarita",
 		"author" : "Mikhail Bulgakov"
+	},
+	{
+		"title": "Slow Productivity",
+		"author": "Cal Newport"	
 	}
 	],
 	"years": {
@@ -171,6 +175,10 @@
 			{
 				"title": "Automatic Noodle",
 				"author": "Annalee Newitz"
+			},
+			{
+				"title": "On Bullshit",
+				"author": "Harry G. Frankfurt"
 			}
 		],
 		"2024": [
