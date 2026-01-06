@@ -4,12 +4,26 @@
 		"description": "My list of books I've read and am currently reading."
 	},
 	"currentlyReading": [
-	{
-		"title": "The Master and Margarita",
-		"author" : "Mikhail Bulgakov"
-	}
+		{
+			"title": "Blank Space: A Cultural History of the Twenty-First Century",
+			"author": "W. David Marx"
+		},
+		{
+			"title": "Non-Things: Upheaval in the Life World",
+			"author": "Byung-Chul Han"
+		},
+		{
+			"title": "American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer",
+			"author": "Kai Bird and Martin J. Sherwin"
+		}
 	],
 	"years": {
+		"2026": [
+			{
+				"title": "The Master and Margarita",
+				"author" : "Mikhail Bulgakov"
+			}
+		],
 		"2025": [
 			{
 				"title": "Stäppvargen",
