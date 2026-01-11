@@ -7,8 +7,8 @@
 		{
 			"title": "Non-Things: Upheaval in the Life World",
 			"author": "Byung-Chul Han"
-		 },
-			{
+	 	},
+		{
 			"title": "Company of One",
 			"author": "Paul Jarvis"
 		}
@@ -19,8 +19,9 @@
 				"title": "The Master and Margarita",
 				"author" : "Mikhail Bulgakov"
 			},
+			{
 				"title": "Blank Space: A Cultural History of the Twenty-First Century",
-			 "author": "W. David Marx"
+			 	"author": "W. David Marx"
 		 }
 		],
 		"2025": [
