@@ -5,16 +5,12 @@
 	},
 	"currentlyReading": [
 		{
-			"title": "Blank Space: A Cultural History of the Twenty-First Century",
-			"author": "W. David Marx"
-		},
-		{
 			"title": "Non-Things: Upheaval in the Life World",
 			"author": "Byung-Chul Han"
-		},
-		{
-			"title": "American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer",
-			"author": "Kai Bird and Martin J. Sherwin"
+		 },
+			{
+			"title": "Company of One",
+			"author": "Paul Jarvis"
 		}
 	],
 	"years": {
@@ -22,7 +18,10 @@
 			{
 				"title": "The Master and Margarita",
 				"author" : "Mikhail Bulgakov"
-			}
+			},
+				"title": "Blank Space: A Cultural History of the Twenty-First Century",
+			 "author": "W. David Marx"
+		 }
 		],
 		"2025": [
 			{
