@@ -5,12 +5,12 @@
 	},
 	"currentlyReading": [
 		{
-			"title": "Non-Things: Upheaval in the Life World",
-			"author": "Byung-Chul Han"
-	 	},
-		{
 			"title": "Company of One",
 			"author": "Paul Jarvis"
+		},
+		{
+			"title": "Europe Central",
+			"author": "William T. Vollmann"
 		}
 	],
 	"years": {
@@ -22,7 +22,11 @@
 			{
 				"title": "Blank Space: A Cultural History of the Twenty-First Century",
 			 	"author": "W. David Marx"
-		 }
+			},
+			{
+				"title": "Non-Things: Upheaval in the Life World",
+			 	"author": "Byung-Chul Han"
+			}
 		],
 		"2025": [
 			{
