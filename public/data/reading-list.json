@@ -13,12 +13,12 @@
 			"author": "William T. Vollmann"
 		},
 		{
-			"title": "Train Dreams",
-			"author": "Denis Johnson"
-		},
-		{
 			"title": "Minima Moralia",
 			"author": "Theodor Adorno"
+		},
+		{
+			"title": "De Döda",
+			"author": "Christian Kracht"
 		}
 	],
 	"years": {
@@ -34,6 +34,10 @@
 			{
 				"title": "Non-Things: Upheaval in the Life World",
 			 	"author": "Byung-Chul Han"
+			},
+			{
+				"title": "Train Dreams",
+				"author": "Denis Johnson"
 			}
 		],
 		"2025": [
