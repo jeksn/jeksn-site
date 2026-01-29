@@ -5,10 +5,6 @@
 	},
 	"currentlyReading": [
 		{
-			"title": "Company of One",
-			"author": "Paul Jarvis"
-		},
-		{
 			"title": "Europe Central",
 			"author": "William T. Vollmann"
 		},
@@ -38,6 +34,10 @@
 			{
 				"title": "Train Dreams",
 				"author": "Denis Johnson"
+			},
+			{
+			"title": "Company of One",
+			"author": "Paul Jarvis"
 			}
 		],
 		"2025": [
