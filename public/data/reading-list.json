@@ -15,11 +15,7 @@
 		{
 			"title": "The Disappearance of Rituals",
 			"author": "Byung-Chul Han"
-		},
-        {
-            "title": "The Circle",
-            "author": "Dave Eggers"
-        }
+		}
 	],
 	"years": {
 		"2026": [
@@ -46,6 +42,10 @@
 			{
 				"title": "De Döda",
 				"author": "Christian Kracht"
+			},
+			{
+				"title": "The Circle",
+				"author": "Dave Eggers"
 			}
 		],
 		"2025": [
