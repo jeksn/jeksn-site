@@ -1,15 +1,15 @@
 [
     {
         "name": "Firefox",
-        "description": "Only using Chrome for testing purposes now."
+        "description": "Only using Chrome/Helium for testing purposes now."
     },
     {
-        "name": "VS Code + Windsurf",
-        "description": "Mostly using Windsurf right now. I will sometimes NeoVim or Helix for quick fixes."
+        "name": "Windsurf",
+        "description": "I will sometimes reach for Neovim or Helix for quick fixes."
     },
     {
-        "name": "Warp",
-        "description": "I've gone back to Warp after using both Wezterm and Ghostty for a while."
+        "name": "Ghostty",
+        "description": "Warp and Wezterm are both good, but Ghostty just works so well."
     },
     {
         "name": "Obsidian",
