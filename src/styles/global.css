@@ -1,6 +1,10 @@
 @import '../styles/fonts.css';
 @import '../styles/markdown.css';
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
 	@apply bg-zinc-900 text-white;
