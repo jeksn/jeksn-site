@@ -35,13 +35,13 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
             <div>
               <ul class="space-y-2">
                 <li>
-                  <a href="#currently-reading" class="text-sm text-[#939393] hover:text-orange-100 transition-colors">
+                  <a href="#currently-reading" class="text-sm text-[#939393] hover:text-orange-100 font-departure transition-colors">
                     Currently Reading
                   </a>
                 </li>
                 {years.map((year) => (
                   <li>
-                    <a href={`#${year}`} class="text-sm text-[#939393] hover:text-orange-100 transition-colors">
+                    <a href={`#${year}`} class="text-sm text-[#939393] hover:text-orange-100 font-departure transition-colors">
                       {year}
                     </a>
                   </li>
@@ -54,7 +54,7 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
           <div x-data="{ open: false }" class="md:hidden mb-8">
             <button 
               @click="open = !open" 
-              class="w-full flex items-center justify-between p-4 bg-zinc-800 text-orange-100 rounded-md"
+              class="w-full flex items-center justify-between font-departure p-4 bg-zinc-800 text-orange-100 rounded-md"
             >
               <span class="text-sm">Choose year</span>
               <svg 
@@ -86,7 +86,7 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
                   <a 
                     href="#currently-reading" 
                     @click="open = false"
-                    class="block px-4 py-2 text-sm text-[#939393] hover:bg-zinc-700 hover:text-orange-100 transition-colors"
+                    class="block px-4 py-2 text-sm text-[#939393] hover:bg-zinc-700 hover:text-orange-100 font-departure transition-colors"
                   >
                     Currently Reading
                   </a>
@@ -96,7 +96,7 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
                     <a 
                       href={`#${year}`} 
                       @click="open = false"
-                      class="block px-4 py-2 text-sm text-[#939393] hover:bg-zinc-700 hover:text-orange-100 transition-colors"
+                      class="block px-4 py-2 text-sm text-[#939393] hover:bg-zinc-700 hover:text-orange-100 font-departure transition-colors"
                     >
                       {year}
                     </a>
@@ -116,10 +116,10 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
               {ReadingListData.currentlyReading.map((book: Book) => (
                 <li class="grid grid-cols-1 text-sm gap-2">
                   <div class="space-y-1">
-                    <p class="text-orange-100 flex items-center">
+                    <p class="text-orange-100 flex items-center font-departure">
                       {book.title}
                     </p>
-                    <p class="text-[#939393]">{book.author}</p>
+                    <p class="text-[#939393] font-departure">{book.author}</p>
                   </div>
                 </li>
               ))}
@@ -136,12 +136,12 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
                   {booksForYear.map((book: Book) => (
                     <li class="grid grid-cols-1 text-sm gap-2">
                       <div class="space-y-1">
-                        <p class="text-orange-100 flex items-center">
+                        <p class="text-orange-100 flex items-center font-departure">
                           {book.title}
                           {book.favorite && <span class="ml-2 text-yellow-400">⭐️</span>}
                         </p>
-                        <p class="text-[#939393]">{book.author}</p>
-                        {book.format && <p class="text-[#666] text-xs italic">{book.format}</p>}
+                        <p class="text-[#939393] font-departure">{book.author}</p>
+                        {book.format && <p class="text-[#666] text-xs italic font-departure">{book.format}</p>}
                       </div>
                     </li>
                   ))}

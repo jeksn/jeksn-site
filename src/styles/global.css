@@ -16,7 +16,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Departure Mono', sans-serif;
 }
-p, ul, ol, table, dl, a, span {
+p, ul, ol, table, dl {
 	font-family: 'Inter', sans-serif;
 }
 .card {
