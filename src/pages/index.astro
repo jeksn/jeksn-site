@@ -6,7 +6,7 @@ import Layout from '../layouts/Layout.astro';
 
 <Head title="Home" />
 <Layout>
-	<section class="">
+	<section class="bg-gradient-to-br from-orange-400 to-orange-600">
 		<div class="flex flex-col items-center max-w-screen-lg mx-auto justify-center h-[70vh] px-4 -mt-[80px]">
 			<div class="flex flex-col items-center font-departure text-center gap-y-6">
 				<h1 class="py-2 text-3xl md:text-5xl text-orange-100 font-departure"><span class="text-orange-100/30 font-departure animate-pulse">https://</span>jek.sn<span class="text-orange-100/30 font-departure animate-pulse">/</span></h1>
@@ -14,12 +14,16 @@ import Layout from '../layouts/Layout.astro';
 					I still believe in the value of the personal website<em>*</em>. 
 					<br />
 					And this is mine.
-					<br />
-					<br />
-					<a href="mailto:johan@jeksn.com" class="text-orange-100/70 hover:text-orange-100 transition-colors font-departure underline underline-offset-2">
-						Get in touch
-					</a>
 				</p>
+				<button 
+					x-data="{ copied: false }"
+					@click="navigator.clipboard.writeText('johan@jeksn.com'); copied = true; setTimeout(() => copied = false, 2000)"
+					class="w-fit px-6 py-3 rounded-full flex items-center justify-center text-sm transition-all duration-150 ease-linear gap-2 bg-white/10 hover:bg-white/20">
+					<span x-show="!copied">GET IN TOUCH</span>
+					<span x-show="copied">EMAIL COPIED</span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right" x-show="!copied"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" x-show="copied"><path d="M20 6 9 17l-5-5"/></svg>
+				</button>
 			</div>
 		</div>
 	</section>
