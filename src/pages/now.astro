@@ -23,12 +23,12 @@ const categories = ['Current Focus', 'Projects', 'Learning'];
 						<div>
 							<ul class="space-y-2">
 								<li>
-									<a href="#now" class="text-sm text-[#939393] hover:text-white transition-colors">
+									<a href="#now" class="text-sm text-[#939393] hover:text-orange-100 transition-colors">
 										Current Focus
 									</a>
 								</li>
 								<li>
-									<a href="#about" class="text-sm text-[#939393] hover:text-white transition-colors">
+									<a href="#about" class="text-sm text-[#939393] hover:text-orange-100 transition-colors">
 										About This Page
 									</a>
 								</li>
@@ -41,12 +41,12 @@ const categories = ['Current Focus', 'Projects', 'Learning'];
 				<div class="md:col-span-4 space-y-12">
 					<!-- Current Focus Section -->
 					<div id="now" class="scroll-mt-8">
-						<h2 class="text-2xl font-medium text-white mb-6">Current Focus</h2>
+						<h2 class="text-2xl font-medium text-orange-100 mb-6">Current Focus</h2>
 						<ul class="space-y-6">
 							{NowData.map((item) => (
 								<li class="grid grid-cols-1 text-sm gap-2">
 									<div class="space-y-1">
-										<p class="text-white">{item.name}</p>
+										<p class="text-orange-100">{item.name}</p>
 										<p class="text-[#939393] whitespace-pre-line">{item.description}</p>
 									</div>
 								</li>
@@ -56,9 +56,9 @@ const categories = ['Current Focus', 'Projects', 'Learning'];
 
 					<!-- About Section -->
 					<div id="about" class="scroll-mt-8">
-						<h2 class="text-2xl font-medium text-white mb-6">About This Page</h2>
+						<h2 class="text-2xl font-medium text-orange-100 mb-6">About This Page</h2>
 						<p class="text-sm text-[#939393]">
-							This is a <a href="https://nownownow.com/about" class="text-white hover:underline" target="_blank">now page</a>. 
+							This is a <a href="https://nownownow.com/about" class="text-orange-100 hover:underline" target="_blank">now page</a>. 
 							It shows what I'm currently focused on and what I'm working on right now. 
 							It's updated regularly to reflect my current priorities and interests.
 						</p>

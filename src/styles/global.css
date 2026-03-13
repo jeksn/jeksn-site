@@ -7,14 +7,14 @@
 
 html,
 body {
-	@apply bg-zinc-900 text-white;
+	@apply bg-neutral-900 text-orange-100;
 	margin: 0;
 	width: 100%;
 	height: 100%;
-	font-family: 'Space Grotesk Variable', sans-serif;
+	font-family: 'Departure Mono', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Space Grotesk Variable', sans-serif;
+	font-family: 'Departure Mono', sans-serif;
 }
 p, ul, ol, table, dl, a, span {
 	font-family: 'Inter', sans-serif;

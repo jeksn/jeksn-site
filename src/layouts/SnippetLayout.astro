@@ -13,8 +13,8 @@ const { frontmatter } = Astro.props;
 		<div class="mt-6 max-w-screen-md mx-auto">
 			<div class="space-y-4">
 				<h1 class="text-4xl mb-3">{frontmatter.title}</h1>
-				{frontmatter.date ? <span class="text-sm text-white/80">{frontmatter.date}</span> : ''}
-				<!-- <p class="text-white/80">{frontmatter.description}</p> -->
+				{frontmatter.date ? <span class="text-sm text-orange-100/80">{frontmatter.date}</span> : ''}
+				<!-- <p class="text-orange-100/80">{frontmatter.description}</p> -->
 			</div>
 			<div class="markdown">
 				<slot />

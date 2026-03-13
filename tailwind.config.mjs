@@ -7,6 +7,7 @@ export default {
 				inter: ['Inter Variable', 'ui-sans-serif', 'system-ui'],
 				mono: ['JetBrains Mono Variable', 'ui-monospace', 'SFMono-Regular'],
 				space: ['Space Grotesk Variable', 'ui-serif', 'Georgia'],
+				departure: ['Departure Mono', 'ui-monospace', 'SFMono-Regular'],
 			},
 		},
 	},

@@ -28,7 +28,7 @@ const categories = ['Apps & Services', 'Gear', 'Headphones'];
 							<ul class="space-y-2">
 								{categories.map((category) => (
 									<li>
-										<a href={`#${category.toLowerCase().replace(/[&\s]+/g, '-')}`} class="text-sm text-[#939393] hover:text-white transition-colors">
+										<a href={`#${category.toLowerCase().replace(/[&\s]+/g, '-')}`} class="text-sm text-[#939393] hover:text-orange-100 transition-colors">
 											{category}
 										</a>
 									</li>
@@ -41,7 +41,7 @@ const categories = ['Apps & Services', 'Gear', 'Headphones'];
 					<div x-data="{ open: false }" class="md:hidden mb-8">
 						<button 
 							@click="open = !open" 
-							class="w-full flex items-center justify-between p-4 bg-zinc-800 text-white rounded-md"
+							class="w-full flex items-center justify-between p-4 bg-zinc-800 text-orange-100 rounded-md"
 						>
 							<span class="text-sm">Choose section</span>
 							<svg 
@@ -74,7 +74,7 @@ const categories = ['Apps & Services', 'Gear', 'Headphones'];
 										<a 
 											href={`#${category.toLowerCase().replace(/[&\s]+/g, '-')}`}
 											@click="open = false"
-											class="block px-4 py-2 text-sm text-[#939393] hover:bg-zinc-700 hover:text-white transition-colors"
+											class="block px-4 py-2 text-sm text-[#939393] hover:bg-zinc-700 hover:text-orange-100 transition-colors"
 										>
 											{category}
 										</a>
@@ -89,12 +89,12 @@ const categories = ['Apps & Services', 'Gear', 'Headphones'];
 				<div class="md:col-span-4 space-y-12">
 					<!-- Apps & Services Section -->
 					<div id="apps-services" class="scroll-mt-8">
-						<h2 class="text-2xl font-medium text-white mb-6">Apps & Services</h2>
+						<h2 class="text-2xl font-medium text-orange-100 mb-6">Apps & Services</h2>
 						<ul class="space-y-4">
 							{AppsServices.map((app) => (
 								<li class="grid grid-cols-1 text-sm gap-2">
 									<div class="space-y-1">
-										<p class="text-white">{app.name}</p>
+										<p class="text-orange-100">{app.name}</p>
 										<p class="text-[#939393]">{app.description}</p>
 									</div>
 								</li>
@@ -104,12 +104,12 @@ const categories = ['Apps & Services', 'Gear', 'Headphones'];
 
 					<!-- Gear Section -->
 					<div id="gear" class="scroll-mt-8">
-						<h2 class="text-2xl font-medium text-white mb-6">Gear</h2>
+						<h2 class="text-2xl font-medium text-orange-100 mb-6">Gear</h2>
 						<ul class="space-y-4">
 							{Gear.map((item) => (
 								<li class="grid grid-cols-1 text-sm gap-2">
 									<div class="space-y-1">
-										<p class="text-white">{item.name}</p>
+										<p class="text-orange-100">{item.name}</p>
 										<p class="text-[#939393]">{item.description}</p>
 									</div>
 								</li>
@@ -119,12 +119,12 @@ const categories = ['Apps & Services', 'Gear', 'Headphones'];
 
 					<!-- Headphones Section -->
 					<div id="headphones" class="scroll-mt-8">
-						<h2 class="text-2xl font-medium text-white mb-6">Headphones</h2>
+						<h2 class="text-2xl font-medium text-orange-100 mb-6">Headphones</h2>
 						<ul class="space-y-4">
 							{Headphones.map((item) => (
 								<li class="grid grid-cols-1 text-sm gap-2">
 									<div class="space-y-1">
-										<p class="text-white">{item.name}</p>
+										<p class="text-orange-100">{item.name}</p>
 										<p class="text-[#939393]">{item.description}</p>
 									</div>
 								</li>

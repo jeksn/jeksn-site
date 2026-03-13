@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig, fontProviders } from 'astro/config';
 
 import react from '@astrojs/react';
 
@@ -18,4 +18,16 @@ export default defineConfig({
       theme: 'nord',
     },
   },
+  fonts: [{
+    provider: fontProviders.local(),
+    name: "DepartureMono",
+    cssVariable: "--font-departure-mono",
+    options: {
+      variants: [{
+        src: ['./src/assets/fonts/DepartureMono-Regular.woff2'],
+        weight: 'normal',
+        style: 'normal'
+      }]
+    }
+  }]
 });

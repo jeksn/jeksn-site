@@ -35,13 +35,13 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
             <div>
               <ul class="space-y-2">
                 <li>
-                  <a href="#currently-reading" class="text-sm text-[#939393] hover:text-white transition-colors">
+                  <a href="#currently-reading" class="text-sm text-[#939393] hover:text-orange-100 transition-colors">
                     Currently Reading
                   </a>
                 </li>
                 {years.map((year) => (
                   <li>
-                    <a href={`#${year}`} class="text-sm text-[#939393] hover:text-white transition-colors">
+                    <a href={`#${year}`} class="text-sm text-[#939393] hover:text-orange-100 transition-colors">
                       {year}
                     </a>
                   </li>
@@ -54,7 +54,7 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
           <div x-data="{ open: false }" class="md:hidden mb-8">
             <button 
               @click="open = !open" 
-              class="w-full flex items-center justify-between p-4 bg-zinc-800 text-white rounded-md"
+              class="w-full flex items-center justify-between p-4 bg-zinc-800 text-orange-100 rounded-md"
             >
               <span class="text-sm">Choose year</span>
               <svg 
@@ -86,7 +86,7 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
                   <a 
                     href="#currently-reading" 
                     @click="open = false"
-                    class="block px-4 py-2 text-sm text-[#939393] hover:bg-zinc-700 hover:text-white transition-colors"
+                    class="block px-4 py-2 text-sm text-[#939393] hover:bg-zinc-700 hover:text-orange-100 transition-colors"
                   >
                     Currently Reading
                   </a>
@@ -96,7 +96,7 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
                     <a 
                       href={`#${year}`} 
                       @click="open = false"
-                      class="block px-4 py-2 text-sm text-[#939393] hover:bg-zinc-700 hover:text-white transition-colors"
+                      class="block px-4 py-2 text-sm text-[#939393] hover:bg-zinc-700 hover:text-orange-100 transition-colors"
                     >
                       {year}
                     </a>
@@ -111,12 +111,12 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
         <div class="md:col-span-4 space-y-12">
           <!-- Currently Reading Section -->
           <div id="currently-reading" class="scroll-mt-8">
-            <h2 class="text-2xl font-medium text-white mb-6">Currently Reading</h2>
+            <h2 class="text-2xl font-medium text-orange-100 mb-6">Currently Reading</h2>
             <ul class="space-y-4">
               {ReadingListData.currentlyReading.map((book: Book) => (
                 <li class="grid grid-cols-1 text-sm gap-2">
                   <div class="space-y-1">
-                    <p class="text-white flex items-center">
+                    <p class="text-orange-100 flex items-center">
                       {book.title}
                     </p>
                     <p class="text-[#939393]">{book.author}</p>
@@ -131,12 +131,12 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
             const booksForYear = ReadingListData.years[year as keyof typeof ReadingListData.years] || [];
             return (
               <div id={year} class="scroll-mt-8">
-                <h2 class="text-2xl font-medium text-white mb-6">{year}</h2>
+                <h2 class="text-2xl font-medium text-orange-100 mb-6">{year}</h2>
                 <ul class="space-y-4">
                   {booksForYear.map((book: Book) => (
                     <li class="grid grid-cols-1 text-sm gap-2">
                       <div class="space-y-1">
-                        <p class="text-white flex items-center">
+                        <p class="text-orange-100 flex items-center">
                           {book.title}
                           {book.favorite && <span class="ml-2 text-yellow-400">⭐️</span>}
                         </p>
