@@ -2,7 +2,7 @@
 	font-family: 'Departure Mono';
 	font-style: normal;
 	font-display: swap;
-	src: url('/assets/fonts/DepartureMono-Regular.woff2') format('woff2');
+	src: url('../assets/fonts/DepartureMono-Regular.woff2') format('woff2');
 }
 
 @font-face {
