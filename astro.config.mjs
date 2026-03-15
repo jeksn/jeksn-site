@@ -10,7 +10,7 @@ export default defineConfig({
   integrations: [react(), alpinejs()],
   redirects: {
 	'/small-projects': '/projects',
-	'/blog': '/',
+	// '/blog': '/',
   },
  site: "https://jeksn.me",
  markdown: {

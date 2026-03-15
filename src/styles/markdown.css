@@ -17,7 +17,7 @@
 	@apply text-xl mt-6;
 }
 .markdown p {
-	@apply text-base mb-6 text-orange-100/90;
+	@apply text-base mb-6 text-orange-100/90 leading-relaxed;
 }
 .markdown a {
 	@apply underline underline-offset-2;
