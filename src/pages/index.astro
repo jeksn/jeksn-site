@@ -42,7 +42,7 @@ const ext_links = [
 								<p class="text-sm text-orange-100/70 font-departure">Don't be a stranger, say hi!</p>
 								<button 
 									x-data="{ copied: false }"
-									@click="navigator.clipboard.writeText('johan@jeksn.com'); copied = true; setTimeout(() => copied = false, 2000)"
+									@click="navigator.clipboard.writeText('hello@jek.sn'); copied = true; setTimeout(() => copied = false, 2000)"
 									class="mt-4 text-sm flex gap-x-1">
 									<span x-show="!copied">Get in touch</span>
 									<span x-show="copied">Email copied!</span>
