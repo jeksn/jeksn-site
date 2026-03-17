@@ -1,3 +1,4 @@
-# jeksn.me 🧑‍🚀
+# jek.sn
 
-2025 rebuild and migration from Next.js to Astro.
+Personal website built with [Astro](https://astro.build).
+
