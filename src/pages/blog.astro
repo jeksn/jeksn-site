@@ -20,7 +20,22 @@ const subtitle = "My infrequent writings.";
 					<div class="sticky top-8 space-y-8">
 						<div>
 							<h3 class="text-lg font-medium text-orange-100 mb-4 font-departure">Blog</h3>
-							<p class="text-sm text-[#939393] font-departure">A bit inconsistent, but thats's pretty typical when it comes to blogging.</p>
+							<p class="text-sm text-[#939393] font-departure mb-4">A bit inconsistent, but thats's pretty typical when it comes to blogging.</p>
+							<button 
+								x-data="{ copied: false }"
+								@click="navigator.clipboard.writeText('https://jek.sn/rss.xml'); copied = true; setTimeout(() => copied = false, 2000)"
+								class="mt-4 text-sm flex gap-x-2 items-center text-orange-100 hover:text-orange-200 font-departure transition-colors">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x-show="!copied">
+									<path d="M4 11a9 9 0 0 1 9 9"></path>
+									<path d="M4 4a16 16 0 0 1 16 16"></path>
+									<circle cx="5" cy="19" r="1"></circle>
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x-show="copied">
+									<path d="M20 6 9 17l-5-5"></path>
+								</svg>
+								<span x-show="!copied">RSS Feed</span>
+								<span x-show="copied">RSS copied!</span>
+							</button>
 						</div>
 					</div>
 				</div>
