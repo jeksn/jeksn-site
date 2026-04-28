@@ -8,7 +8,7 @@ I'm way overdue in writing up a blog post, so this will be a proably scattered o
 
 ## Side projects and AI
 
-Of course I'm doing AI work, mostly since I have to with pressure from work and also trying to understand and optimize how I work with it personally. My current view of it is that sometimes it works great and sometimes it's complete ass.
+Of course I'm doing AI work, mostly since I have to with pressure from work and also trying to understand and optimize how I work with it personally. My current view of it is that sometimes it works great and sometimes it fails completely.
 I think I'll write a short post about what I'm using at this point and my setup at the moment.
 But I don't want to dwell on all the shortcomings of agentic coding, so on the success front I've been working on a pretty simple web extension to improve how I want the frontend and features of YouTube to work. I've previously used both UnTrap and Unhook, but was never completely satisfied by it. I stumbled across the [WXT Framework](https://wxt.dev/) and managed to generate a pretty decent prototype very quickly that I'm now working on expanding and cover my requirements.
 The project is right now called [Eklipse](https://eklipse.jek.sn).
