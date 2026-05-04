@@ -9,16 +9,8 @@
 			"author": "William T. Vollmann"
 		},
 		{
-			"title": "The Every",
-			"author": "Dave Eggers"
-		},
-		{
 			"title": "Between Two Fires",
 			"author": "Christopher Buehlman"
-		},
-		{
-			"title": "Atomic Habits",
-			"author": "James Clear"
 		}
 	],
 	"years": {
@@ -66,6 +58,14 @@
 			{
 				"title": "Why I Am Not Going to Buy a Computer",
 				"author": "Wendell Berry"
+			},
+			{
+				"title": "Atomic Habits",
+				"author": "James Clear"
+			},
+			{
+				"title": "The Every",
+				"author": "Dave Eggers"
 			}
 		],
 		"2025": [
