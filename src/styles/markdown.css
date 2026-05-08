@@ -26,7 +26,7 @@
 	@apply card px-6 py-2 rounded-sm mb-4;
 }
 .markdown pre > code > span > span {
-	font-family: 'JetBrains Mono Variable';
+	font-family: var(--font-jetbrains-mono);
 }
 .markdown blockquote {
 	@apply border-l-8 border-white/20 bg-gray-800 rounded-sm mb-6 px-8 py-4;

@@ -1,4 +1,5 @@
 ---
+import { Font } from 'astro:assets';
 const title = Astro.props.title.charAt(0).toUpperCase() + Astro.props.title.slice(1);
 const description = Astro.props.description || "The personal site of Johan Eriksson";
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -7,6 +8,10 @@ import '../styles/global.css';
 <!doctype html>
 <html lang="en">
 <head>
+	<Font cssVariable="--font-departure-mono" preload />
+	<Font cssVariable="--font-inter" preload />
+	<Font cssVariable="--font-jetbrains-mono" />
+	<Font cssVariable="--font-space-grotesk" />
 	<link rel="sitemap" href="/sitemap-index.xml">
 	<title>{title} / jek.sn</title>
 	<meta name="description" content={description}>

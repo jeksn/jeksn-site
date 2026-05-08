@@ -11,13 +11,13 @@ body {
 	margin: 0;
 	width: 100%;
 	height: 100%;
-	font-family: 'Departure Mono', sans-serif;
+	font-family: var(--font-departure-mono), sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Departure Mono', sans-serif;
+	font-family: var(--font-departure-mono), sans-serif;
 }
 p, ul, ol, table, dl {
-	font-family: 'Inter', sans-serif;
+	font-family: var(--font-inter), sans-serif;
 }
 .card {
 	@apply transition-all duration-300 !bg-neutral-900 border border-neutral-800 hover:border-white/20 hover:border rounded-sm;

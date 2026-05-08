@@ -20,16 +20,33 @@ export default defineConfig({
       theme: 'nord',
     },
   },
-  fonts: [{
-    provider: fontProviders.local(),
-    name: "DepartureMono",
-    cssVariable: "--font-departure-mono",
-    options: {
-      variants: [{
-        src: ['./src/assets/fonts/DepartureMono-Regular.woff2'],
-        weight: 'normal',
-        style: 'normal'
-      }]
-    }
-  }]
+  fonts: [
+    {
+      provider: fontProviders.local(),
+      name: "DepartureMono",
+      cssVariable: "--font-departure-mono",
+      options: {
+        variants: [{
+          src: ['./src/assets/fonts/DepartureMono-Regular.woff2'],
+          weight: 'normal',
+          style: 'normal'
+        }]
+      }
+    },
+    {
+      provider: fontProviders.fontsource(),
+      name: "Inter",
+      cssVariable: "--font-inter",
+    },
+    {
+      provider: fontProviders.fontsource(),
+      name: "Space Grotesk",
+      cssVariable: "--font-space-grotesk",
+    },
+    {
+      provider: fontProviders.fontsource(),
+      name: "JetBrains Mono",
+      cssVariable: "--font-jetbrains-mono",
+    },
+  ]
 });

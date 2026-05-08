@@ -4,10 +4,10 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				inter: ['Inter Variable', 'ui-sans-serif', 'system-ui'],
-				mono: ['JetBrains Mono Variable', 'ui-monospace', 'SFMono-Regular'],
-				space: ['Space Grotesk Variable', 'ui-serif', 'Georgia'],
-				departure: ['Departure Mono', 'ui-monospace', 'SFMono-Regular'],
+				inter: ['var(--font-inter)', 'ui-sans-serif', 'system-ui'],
+				mono: ['var(--font-jetbrains-mono)', 'ui-monospace', 'SFMono-Regular'],
+				space: ['var(--font-space-grotesk)', 'ui-sans-serif', 'Georgia'],
+				departure: ['var(--font-departure-mono)', 'ui-monospace', 'SFMono-Regular'],
 			},
 		},
 	},
