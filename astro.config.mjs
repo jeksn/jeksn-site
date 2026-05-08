@@ -5,9 +5,11 @@ import react from '@astrojs/react';
 
 import alpinejs from '@astrojs/alpinejs';
 
+import sitemap from '@astrojs/sitemap';
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), alpinejs()],
+  integrations: [react(), alpinejs(), sitemap()],
   redirects: {
 	'/small-projects': '/projects',
 	// '/blog': '/',

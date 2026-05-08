@@ -9,7 +9,7 @@ const { frontmatter } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
-	<Head title={frontmatter.title} />
+	<Head title={frontmatter.title} description={frontmatter.description} />
 	<Header />
 	<Hero title={frontmatter.title} subtitle={frontmatter.description} />
 	<section class="py-12 px-4">

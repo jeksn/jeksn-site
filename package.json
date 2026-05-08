@@ -10,19 +10,20 @@
   },
   "dependencies": {
     "@astrojs/alpinejs": "^0.5.0",
-    "@astrojs/react": "^5.0.0",
-    "@astrojs/rss": "^4.0.17",
+    "@astrojs/react": "^5.0.4",
+    "@astrojs/rss": "^4.0.18",
+    "@astrojs/sitemap": "^3.7.2",
     "@types/alpinejs": "^3.13.11",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "alpinejs": "^3.14.8",
-    "astro": "^6.0.2",
+    "astro": "^6.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.17",
+    "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
-    "autoprefixer": "^10.4.20"
+    "tailwindcss": "^3.4.17"
   }
 }
