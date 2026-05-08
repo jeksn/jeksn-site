@@ -7,10 +7,6 @@
 		{
 			"title": "Europe Central",
 			"author": "William T. Vollmann"
-		},
-		{
-			"title": "Between Two Fires",
-			"author": "Christopher Buehlman"
 		}
 	],
 	"years": {
@@ -66,6 +62,10 @@
 			{
 				"title": "The Every",
 				"author": "Dave Eggers"
+			},
+			{
+				"title": "Between Two Fires",
+				"author": "Christopher Buehlman"
 			}
 		],
 		"2025": [
