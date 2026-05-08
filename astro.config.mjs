@@ -1,15 +1,13 @@
 // @ts-check
 import { defineConfig, fontProviders } from 'astro/config';
 
-import react from '@astrojs/react';
-
 import alpinejs from '@astrojs/alpinejs';
 
 import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), alpinejs(), sitemap()],
+  integrations: [alpinejs(), sitemap()],
   redirects: {
 	'/small-projects': '/projects',
 	// '/blog': '/',
