@@ -3,7 +3,16 @@ import Head from '../components/Head.astro';
 import LayoutLight from '../layouts/LayoutLight.astro';
 import SmallHero from '../components/SmallHero.astro';
 
-const allPosts = Object.values(import.meta.glob('./blog/*.md', { eager: true }));
+interface BlogPost {
+	url: string;
+	frontmatter: {
+		title: string;
+		date: string;
+		description?: string;
+	};
+}
+
+const allPosts = Object.values(import.meta.glob('./blog/*.md', { eager: true })) as BlogPost[];
 
 const title = 'Blog';
 const subtitle = "My infrequent writings.";
@@ -21,7 +30,8 @@ const subtitle = "My infrequent writings.";
 						<div>
 							<h3 class="text-lg font-medium text-orange-100 mb-4 font-departure">Blog</h3>
 							<p class="text-sm text-[#939393] font-departure mb-4">A bit inconsistent, but thats's pretty typical when it comes to blogging.</p>
-							<button 
+							<button
+								aria-label="Copy RSS feed URL"
 								x-data="{ copied: false }"
 								@click="navigator.clipboard.writeText('https://jek.sn/rss.xml'); copied = true; setTimeout(() => copied = false, 2000)"
 								class="mt-4 text-sm flex gap-x-2 items-center text-orange-100 hover:text-orange-200 font-departure transition-colors">
@@ -45,7 +55,7 @@ const subtitle = "My infrequent writings.";
 					<div class="space-y-8">
 						<div>
 							<ul class="space-y-4">
-								{allPosts.sort((a: any, b: any) => (a.frontmatter.date < b.frontmatter.date) ? 1 : -1).map((post: any) => 
+								{allPosts.sort((a, b) => (a.frontmatter.date < b.frontmatter.date) ? 1 : -1).map((post) => 
 									<li class="grid grid-cols-1 text-sm gap-2">
 										<div class="space-y-1">
 											<a href={post.url} class="text-orange-100 font-departure hover:underline flex gap-1"><span>{post.frontmatter.title}</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>

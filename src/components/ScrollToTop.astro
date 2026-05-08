@@ -1,4 +1,5 @@
-<button 
+<button
+  aria-label="Scroll to top"
   x-data="{ showButton: false }"
   x-init="window.addEventListener('scroll', () => { showButton = window.scrollY > 50 })"
   @click="window.scrollTo({top: 0, behavior: 'smooth'})"

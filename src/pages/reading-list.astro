@@ -52,7 +52,8 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
           
           <!-- Mobile dropdown - visible on smaller screens -->
           <div x-data="{ open: false }" class="md:hidden mb-8">
-            <button 
+            <button
+              aria-label="Toggle year menu"
               @click="open = !open" 
               class="w-full flex items-center justify-between font-departure p-4 bg-zinc-800 text-orange-100 rounded-md"
             >

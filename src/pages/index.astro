@@ -40,7 +40,8 @@ const ext_links = [
 								<h3 class="text-orange-100 font-departure">I'm glad you made it here.</h3>
 								<br>
 								<p class="text-sm text-orange-100/70 font-departure">Don't be a stranger, say hi!</p>
-								<button 
+								<button
+									aria-label="Copy email address"
 									x-data="{ copied: false }"
 									@click="navigator.clipboard.writeText('hello@jek.sn'); copied = true; setTimeout(() => copied = false, 2000)"
 									class="mt-4 text-sm flex gap-x-1">
