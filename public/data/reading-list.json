@@ -5,8 +5,12 @@
 	},
 	"currentlyReading": [
 		{
-			"title": "Europe Central",
-			"author": "William T. Vollmann"
+			"title": "Absalom, Absalom!",
+			"author": "William Faulkner"
+		},
+		{
+			"title": "Vita Contemplativa",
+			"author": "Byung-Chul Han"
 		}
 	],
 	"years": {
@@ -66,6 +70,10 @@
 			{
 				"title": "Between Two Fires",
 				"author": "Christopher Buehlman"
+			},
+			{
+				"title": "Europe Central",
+				"author": "William T. Vollmann"
 			}
 		],
 		"2025": [
