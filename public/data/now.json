@@ -1,15 +1,15 @@
 [
     {
-        "name": "Using Laravel",
-        "description": "I'm building everything with Laravel in 2025 and using everything its ecosystem offers."
+        "name": "Making side projects",
+        "description": "Using AI-tools to make apps, extensions or other small tools to improve my workflow and life online."
     },
     {
-        "name": "Getting better at writing and keeping a journal",
-		"description": "This has been one of the best habits I've picked up this year."
+        "name": "Keeping a journal and tracking habits",
+		"description": "Writing a simple journal and keeping myself accountable using habit-tracking in a small notebook."
     },
     {
         "name": "Reading more books and consuming better media",
-        "description": "Removed social media, reading less news and trying to limit wasting time on Youtube."
+        "description": "Reading more and scrolling less. It's a process..."
     },
 	{
 		"name": "Playing disc golf",
@@ -17,6 +17,6 @@
 	},
 	{
 		"name": "Going to the gym",
-		"description": "Trying to be more consistent with going to the gym."
+		"description": "Trying to get a routine going and be more consistent."
 	}
 ]
