@@ -9,11 +9,7 @@
 			"author": "William Faulkner"
 		},
 		{
-			"title": "Vita Contemplativa",
-			"author": "Byung-Chul Han"
-		},
-		{
-			"title": "Less than Zero",
+			"title": "Less Than Zero",
 			"author": "Bret Easton Ellis"
 		}
 	],
@@ -78,6 +74,10 @@
 			{
 				"title": "Europe Central",
 				"author": "William T. Vollmann"
+			},
+			{
+				"title": "Vita Contemplativa",
+				"author": "Byung-Chul Han"
 			}
 		],
 		"2025": [
