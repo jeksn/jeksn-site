@@ -7,10 +7,6 @@
 		{
 			"title": "Absalom, Absalom!",
 			"author": "William Faulkner"
-		},
-		{
-			"title": "Less Than Zero",
-			"author": "Bret Easton Ellis"
 		}
 	],
 	"years": {
@@ -78,6 +74,10 @@
 			{
 				"title": "Vita Contemplativa",
 				"author": "Byung-Chul Han"
+			},
+			{
+				"title": "Less Than Zero",
+				"author": "Bret Easton Ellis"
 			}
 		],
 		"2025": [
