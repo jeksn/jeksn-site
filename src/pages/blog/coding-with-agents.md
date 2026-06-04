@@ -8,9 +8,9 @@ This is a short rundown on how I write (and don’t write) code these days. I’
 
 But for personal projects, I use agent mode more and more.
 
-Over the years, and especially recently, I’ve tried several tools, like OpenCode, Claude Code, Mistral Vibe, etc. But I keep coming back to Windsurf, since I feel like it offers a good balance between a solid IDE and AI tools that are easily accessible when needed.
+Over the years, and especially recently, I’ve tried several tools, like OpenCode, Claude Code, Mistral Vibe, etc. But I keep coming back to [Windsurf](https://windsurf.com), since I feel like it offers a good balance between a solid IDE and AI tools that are easily accessible when needed.
 
-A few weeks ago, Windsurf added Devin to the same plan, which is an "AI coding agent" that works in the same way as Claude Code, which seems to be the current industry leader. The best part is that it's easy to switch models if needed, but I usually keep it on Adaptive and don't have to worry about which model is running in the background. I can see data on which models have been used the most in Windsurf usage:
+A few weeks ago, Windsurf added Devin to the same plan, which is an "AI coding agent" that works in the same way as Claude Code, which seems to be the current industry leader. The best part is that it's easy to switch models if needed, but I usually keep it on [Adaptive](https://windsurf.com/blog/windsurf-adaptive) and don't have to worry about which model is running in the background. I can see data on which models have been used the most in Windsurf usage:
 
 ```
 Kimi K2.5
