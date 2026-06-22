@@ -5,8 +5,6 @@ const description = Astro.props.description || "The personal site of Johan Eriks
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 import '../styles/global.css';
 ---
-<!doctype html>
-<html lang="en">
 <head>
 	<Font cssVariable="--font-departure-mono" preload />
 	<Font cssVariable="--font-inter" preload />
@@ -32,4 +30,3 @@ import '../styles/global.css';
 	<meta name="twitter:title" content={`${title} / jek.sn`} />
 	<meta name="twitter:description" content={description} />
 </head>
-<body>

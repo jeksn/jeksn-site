@@ -22,8 +22,8 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
 
 ---
 
-<Head title={title} />
 <LayoutLight>
+  <Head slot="head" title={title} />
   <SmallHero title={title} subtitle={description} />
   <section class="pt-12 pb-16 px-4">
     <div class="mt-6 max-w-screen-lg mx-auto">

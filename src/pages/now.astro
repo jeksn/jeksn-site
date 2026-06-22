@@ -11,8 +11,8 @@ const subtitle = "What I'm currently focusing on.";
 const categories = ['Current Focus', 'Projects', 'Learning'];
 ---
 
-<Head title={title} />
 <LayoutLight>
+	<Head slot="head" title={title} />
 	<SmallHero title={title} subtitle={subtitle} />
 	<section class="pt-12 pb-16 px-4">
 		<div class="mt-6 max-w-screen-lg mx-auto">

@@ -6,8 +6,8 @@ import LayoutLight from '../layouts/LayoutLight.astro';
 const title = 'CV';
 ---
 
-<Head title={title} />
 <LayoutLight>
+	<Head slot="head" title={title} />
 	<!-- <Hero title={title}/> -->
 	<section class="pt-12 pb-16 px-4">
 		<div class="mt-6 max-w-screen-sm mx-auto">
