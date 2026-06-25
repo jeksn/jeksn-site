@@ -7,10 +7,6 @@
 		{
 			"title": "Libra",
 			"author": "Don DeLillo"
-		},
-		{
-			"title": "1979",
-			"author": "Christian Kracht"
 		}
 	],
 	"years": {
@@ -82,6 +78,10 @@
 			{
 				"title": "Less Than Zero",
 				"author": "Bret Easton Ellis"
+			},
+			{
+				"title": "1979",
+				"author": "Christian Kracht"
 			}
 		],
 		"2025": [
