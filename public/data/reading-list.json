@@ -5,12 +5,12 @@
 	},
 	"currentlyReading": [
 		{
-			"title": "Libra",
-			"author": "Don DeLillo"
-		},
-		{
 			"title": "The Conspiracy Against the Human Race",
 			"author": "Thomas Ligotti"
+		},
+		{
+			"title": "Notes on Being a Man",
+			"author": "Scott Galloway"
 		}
 	],
 	"years": {
@@ -86,6 +86,10 @@
 			{
 				"title": "1979",
 				"author": "Christian Kracht"
+			},
+			{
+				"title": "Libra",
+				"author": "Don DeLillo"
 			}
 		],
 		"2025": [
