@@ -5,12 +5,12 @@
 	},
 	"currentlyReading": [
 		{
-			"title": "The Conspiracy Against the Human Race",
-			"author": "Thomas Ligotti"
+			"title": "Heart of Darkness",
+			"author": "Joseph Conrad"
 		},
 		{
-			"title": "Notes on Being a Man",
-			"author": "Scott Galloway"
+			"title": "Alternating Currents",
+			"author": "Frederik Pohl"
 		}
 	],
 	"years": {
@@ -90,6 +90,14 @@
 			{
 				"title": "Libra",
 				"author": "Don DeLillo"
+			},
+			{
+				"title": "Imperial Bedrooms",
+				"author": "Bret Easton Ellis"
+			},
+			{
+				"title": "The Conspiracy Against the Human Race",
+				"author": "Thomas Ligotti"
 			}
 		],
 		"2025": [
