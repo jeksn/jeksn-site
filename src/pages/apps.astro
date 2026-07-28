@@ -1,0 +1,69 @@
+---
+import Head from '../components/Head.astro';
+import LayoutLight from '../layouts/LayoutLight.astro';
+import SmallHero from '../components/SmallHero.astro';
+
+const title = 'Apps';
+const subtitle = "Software I'm building and releasing. Native apps, extensions, and everything in between.";
+
+const apps = [
+	{
+		name: "Feedwire (beta)",
+		description: "A feed reader for MacOS that tracks updates from sources like RSS feeds, YouTube channels, and more. Inspired by NetNewsWire, but with the features I wish it had.",
+        url: "https://feedwire.jek.sn"
+	},
+	{
+		name: "Eklipse",
+		description: 'A web extension that removes distractions and enhances your YouTube experience.',
+		url: "https://eklipse.jek.sn"
+	}
+];
+---
+
+<LayoutLight>
+	<Head slot="head" title={title} />
+	<SmallHero title={title} subtitle={subtitle} />
+	<section class="pt-12 pb-16 px-4">
+		<div class="mt-6 max-w-screen-lg mx-auto">
+			<div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+				<!-- Left sidebar with static content -->
+				<div class="md:col-span-1">
+					<div class="sticky top-8 space-y-8">
+						<div>
+							<h3 class="text-lg font-medium text-orange-100 mb-4 font-departure">Apps</h3>
+							<p class="text-sm text-[#939393] font-departure">Software I'm releasing — native apps and browser extensions.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Right content area with apps -->
+				<div class="md:col-span-4">
+					<div class="space-y-8">
+						<div>
+							<ul class="space-y-4">
+								{apps.map((app) => (
+									<li class="grid grid-cols-1 text-sm gap-2">
+										<div class="space-y-1">
+											{app.url ? (
+												<a href={app.url} target="_blank" class="text-orange-100 font-departure hover:underline flex gap-1"><span>{app.name}</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+											) : (
+												<span class="text-orange-100 font-departure">{app.name}</span>
+											)}
+											<p class="text-[#939393] font-departure">{app.description}</p>
+										</div>
+									</li>
+								))}
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</LayoutLight>
+
+<style>
+	html {
+		scroll-behavior: smooth;
+	}
+</style>
