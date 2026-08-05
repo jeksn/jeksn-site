@@ -7,10 +7,6 @@
 		{
 			"title": "Heart of Darkness",
 			"author": "Joseph Conrad"
-		},
-		{
-			"title": "Alternating Currents",
-			"author": "Frederik Pohl"
 		}
 	],
 	"years": {
@@ -98,6 +94,10 @@
 			{
 				"title": "The Conspiracy Against the Human Race",
 				"author": "Thomas Ligotti"
+			},
+			{
+				"title": "Alternating Currents",
+				"author": "Frederik Pohl"
 			}
 		],
 		"2025": [
