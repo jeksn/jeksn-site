@@ -5,8 +5,8 @@
 	},
 	"currentlyReading": [
 		{
-			"title": "Heart of Darkness",
-			"author": "Joseph Conrad"
+			"title": "Elder Race",
+			"author": "Adrian Tchaikovsky"
 		}
 	],
 	"years": {
@@ -98,6 +98,10 @@
 			{
 				"title": "Alternating Currents",
 				"author": "Frederik Pohl"
+			},
+			{
+				"title": "Heart of Darkness",
+				"author": "Joseph Conrad"
 			}
 		],
 		"2025": [
