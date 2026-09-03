@@ -31,7 +31,7 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
         <!-- Left sidebar with years - Desktop view and Mobile dropdown -->
         <div class="md:col-span-1">
           <!-- Desktop view - visible on md screens and above -->
-          <div class="hidden md:block sticky top-8 space-y-8">
+          <div class="hidden md:block sticky top-24 space-y-8">
             <div>
               <ul class="space-y-2">
                 <li>
@@ -111,7 +111,7 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
         <!-- Right content area with book listings -->
         <div class="md:col-span-4 space-y-12">
           <!-- Currently Reading Section -->
-          <div id="currently-reading" class="scroll-mt-8">
+          <div id="currently-reading" class="scroll-mt-24">
             <h2 class="text-2xl font-medium text-orange-100 mb-6">Currently Reading</h2>
             <ul class="space-y-4">
               {ReadingListData.currentlyReading.map((book: Book) => (
@@ -131,7 +131,7 @@ const years = Object.keys(ReadingListData.years).sort((a, b) => Number(b) - Numb
           {years.map((year) => {
             const booksForYear = ReadingListData.years[year as keyof typeof ReadingListData.years] || [];
             return (
-              <div id={year} class="scroll-mt-8">
+              <div id={year} class="scroll-mt-24">
                 <h2 class="text-2xl font-medium text-orange-100 mb-6">{year}</h2>
                 <ul class="space-y-4">
                   {booksForYear.map((book: Book) => (

@@ -19,7 +19,7 @@ const categories = ['Current Focus', 'Projects', 'Learning'];
 			<div class="grid grid-cols-1 md:grid-cols-5 gap-8">
 				<!-- Left sidebar with categories - Desktop view and Mobile dropdown -->
 				<div class="md:col-span-1">
-					<div class="hidden md:block sticky top-8 space-y-8">
+					<div class="hidden md:block sticky top-24 space-y-8">
 						<div>
 							<ul class="space-y-2">
 								<li>
@@ -40,7 +40,7 @@ const categories = ['Current Focus', 'Projects', 'Learning'];
 				<!-- Right content area with now information -->
 				<div class="md:col-span-4 space-y-12">
 					<!-- Current Focus Section -->
-					<div id="now" class="scroll-mt-8">
+					<div id="now" class="scroll-mt-24">
 						<h2 class="text-2xl font-medium text-orange-100 mb-6 font-departure">Current Focus</h2>
 						<ul class="space-y-6">
 							{NowData.map((item) => (
@@ -55,7 +55,7 @@ const categories = ['Current Focus', 'Projects', 'Learning'];
 					</div>
 
 					<!-- About Section -->
-					<div id="about" class="scroll-mt-8">
+					<div id="about" class="scroll-mt-24">
 						<h2 class="text-2xl font-medium text-orange-100 mb-6 font-departure">About This Page</h2>
 						<p class="text-sm text-[#939393] font-departure">
 							This is a <a href="https://nownownow.com/about" class="text-orange-100 hover:underline font-departure" target="_blank">now page</a>. 
