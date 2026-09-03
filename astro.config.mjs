@@ -10,6 +10,7 @@ export default defineConfig({
   integrations: [alpinejs(), sitemap()],
   redirects: {
 	'/small-projects': '/projects',
+	'/apps': '/projects',
 	// '/blog': '/',
   },
  site: "https://jek.sn",
