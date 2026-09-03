@@ -1,10 +1,10 @@
 [
     {
         "name": "Helium",
-        "description": "Trying it out for a bit, seems nice. But will switch back to Firefox if it doesn't work out."
+        "description": "The best browser for me right now."
     },
     {
-        "name": "Windsurf",
+        "name": "Devin (previously called Windsurf)",
         "description": "I will sometimes reach for Neovim or Helix for quick fixes."
     },
     {
@@ -21,18 +21,6 @@
     },
     {
         "name": "OVPN",
-        "description": "Using it as a work VPN, but also for personal use."
-    },
-    {
-        "name": "NetNewsWire",
-        "description": "Using it while I finish building my own RSS/Feed manager."
-    },
-    {
-        "name": "Raycast",
-        "description": "I can't imagine using a Mac without it."
-    },
-    {
-        "name": "Deezer",
-        "description": "Moved from Apple Music."
+        "description": "Began using it as a work VPN, but also for personal use now."
     }
 ]
