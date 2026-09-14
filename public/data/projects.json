@@ -1,0 +1,36 @@
+{
+	"apps": [
+		{
+			"name": "Windowpane",
+			"description": "Custom window commands for macOS — a lightweight, open-source menu-bar app. Resize and move the focused window into any layout, triggered with global hotkeys, a quick picker, or a URL.",
+			"url": "https://github.com/jeksn/windowpane"
+		},
+		{
+			"name": "Feedwire (beta)",
+			"description": "A lightweight, native macOS RSS/Atom feed reader built with Tauri, React and Rust. Tracks RSS feeds and YouTube channels, with OPML import/export, folders and article filtering. Inspired by NetNewsWire, but with the features I wish it had.",
+			"url": "https://feedwire.jek.sn"
+		},
+		{
+			"name": "Eklipse",
+			"description": "A browser extension that strips away distractions and puts you back in control of your YouTube experience — hide the home feed, limit recommendations, disable autoplay and more.",
+			"url": "https://eklipse.jek.sn"
+		}
+	],
+	"smallProjects": [
+		{
+			"name": "Hat Stack",
+			"description": "A simple starter template based on Alpine.js, Tailwind and Handlebars.",
+			"url": "https://github.com/jeksn/HatStack"
+		},
+		{
+			"name": "Alpinist",
+			"description": "A collection of Alpine.js components.",
+			"url": "https://alpinist.jeksn.me"
+		},
+		{
+			"name": "Weeek",
+			"description": "Small site that displays the week number.",
+			"url": "https://week.jeksn.me"
+		}
+	]
+}

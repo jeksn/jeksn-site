@@ -1,7 +1,7 @@
 ---
-layout: ../../layouts/BlogLayout.astro
 title: "Why I keep a personal website"
 date: "2024-01-01"
+description: "Why I keep a personal website in the age of social media."
 ---
 
 For the past few years I've been cutting down on the amount of social media I use.

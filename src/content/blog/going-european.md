@@ -1,7 +1,7 @@
 ---
-layout: ../../layouts/BlogLayout.astro
 title: "Going European"
 date: "2025-03-10"
+description: "Moving away from American services to European alternatives."
 ---
 
 With the current political turmoil I've really soured on using American services and want to move as much as I can to European alternatives.

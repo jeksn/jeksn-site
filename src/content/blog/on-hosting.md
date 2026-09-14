@@ -1,7 +1,7 @@
 ---
-layout: ../../layouts/BlogLayout.astro
 title: "On Hosting"
 date: "2025-05-07"
+description: "Notes on how this site is hosted and thoughts on various hosting providers."
 ---
 I wanted to add a quick note about how this site is hosted and share some thoughts on it. I've moved this site several times, more than I can remember. In no particular order, I've used:
 

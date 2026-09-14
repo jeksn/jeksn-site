@@ -1,7 +1,7 @@
 ---
-layout: ../../layouts/BlogLayout.astro
 title: "Coding with Agents (Without Going Full Vibe)"
 date: "2026-05-26"
+description: "How I write code with AI agents — using them more for personal projects while staying responsible for client code."
 ---
 
 This is a short rundown on how I write (and don’t write) code these days. I’m not fully stepping away from code and just letting the agent run wild on it, since I need to be responsible for client code.

@@ -1,11 +1,18 @@
-import rss, { pagesGlobToRssItems } from '@astrojs/rss';
+import rss from '@astrojs/rss';
+import { getCollection } from 'astro:content';
 
 export async function GET(context) {
+  const posts = await getCollection('blog');
   return rss({
     title: 'jek.sn | Blog',
     description: 'The blog of jek.sn',
     site: context.site,
-    items: await pagesGlobToRssItems(import.meta.glob('./blog/*.md')),
+    items: posts.map((post) => ({
+      title: post.data.title,
+      description: post.data.description,
+      pubDate: new Date(post.data.date),
+      link: `/blog/${post.id}/`,
+    })),
     customData: `<language>en-us</language>`,
   });
 }

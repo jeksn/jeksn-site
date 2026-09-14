@@ -2,45 +2,14 @@
 import Head from '../components/Head.astro';
 import LayoutLight from '../layouts/LayoutLight.astro';
 import SmallHero from '../components/SmallHero.astro';
+import ArrowUpRight from '../components/ArrowUpRight.astro';
+import ProjectsData from '../../public/data/projects.json';
 
 const title = 'Projects';
 const subtitle = "Apps I'm building and releasing, plus small experiments and other fun stuff.";
 
-const apps = [
-	{
-		name: "Windowpane",
-		description: "Custom window commands for macOS — a lightweight, open-source menu-bar app. Resize and move the focused window into any layout, triggered with global hotkeys, a quick picker, or a URL.",
-		url: "https://github.com/jeksn/windowpane"
-	},
-	{
-		name: "Feedwire (beta)",
-		description: "A lightweight, native macOS RSS/Atom feed reader built with Tauri, React and Rust. Tracks RSS feeds and YouTube channels, with OPML import/export, folders and article filtering. Inspired by NetNewsWire, but with the features I wish it had.",
-		url: "https://feedwire.jek.sn"
-	},
-	{
-		name: "Eklipse",
-		description: "A browser extension that strips away distractions and puts you back in control of your YouTube experience — hide the home feed, limit recommendations, disable autoplay and more.",
-		url: "https://eklipse.jek.sn"
-	}
-];
-
-const smallProjects = [
-	{
-		name: "Hat Stack",
-		description: "A simple starter template based on Alpine.js, Tailwind and Handlebars.",
-		url: "https://github.com/jeksn/HatStack"
-	},
-	{
-		name: "Alpinist",
-		description: "A collection of Alpine.js components.",
-		url: "https://alpinist.jeksn.me"
-	},
-	{
-		name: "Weeek",
-		description: "Small site that displays the week number.",
-		url: "https://week.jeksn.me"
-	}
-];
+const apps = ProjectsData.apps;
+const smallProjects = ProjectsData.smallProjects;
 ---
 
 <LayoutLight>
@@ -68,7 +37,7 @@ const smallProjects = [
 									<li class="grid grid-cols-1 text-sm gap-2">
 										<div class="space-y-1">
 											{app.url ? (
-												<a href={app.url} target="_blank" class="text-orange-100 font-departure hover:underline flex gap-1"><span>{app.name}</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+												<a href={app.url} target="_blank" class="text-orange-100 font-departure hover:underline flex gap-1"><span>{app.name}</span><ArrowUpRight /></a>
 											) : (
 												<span class="text-orange-100 font-departure">{app.name}</span>
 											)}
@@ -85,7 +54,7 @@ const smallProjects = [
 									<li class="grid grid-cols-1 text-sm gap-2">
 										<div class="space-y-1">
 											{project.url ? (
-												<a href={project.url} target="_blank" class="text-orange-100 font-departure hover:underline flex gap-1"><span>{project.name}</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+												<a href={project.url} target="_blank" class="text-orange-100 font-departure hover:underline flex gap-1"><span>{project.name}</span><ArrowUpRight /></a>
 											) : (
 												<span class="text-orange-100 font-departure">{project.name}</span>
 											)}

@@ -1,7 +1,7 @@
 ---
-layout: ../../layouts/BlogLayout.astro
 title: "On Music Streaming"
 date: "2024-11-15"
+description: "My journey through music streaming services and what I've settled on."
 ---
 
 > ### Addendum: May 7, 2025

@@ -1,7 +1,7 @@
 ---
-layout: ../../layouts/BlogLayout.astro
 title: "Taking Notes"
 date: "2024-10-07"
+description: "My current note-taking system combining digital and analog tools."
 ---
 
 I, like many others, have been in a constant battle with my note-taking system. There have been many iterations and apps that I have started using and then fallen off. I've used Notion, Joplin, Bear, and several more. This post would be way too long if I went over all that, and it wouldn't be very interesting either. So instead of dwelling on the past, let's stay in the present.

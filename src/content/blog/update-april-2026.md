@@ -1,7 +1,7 @@
 ---
-layout: ../../layouts/BlogLayout.astro
 title: "Update April 2026"
 date: "2026-04-25"
+description: "A scattered overview of side projects, AI, and where I'm at right now."
 ---
 
 I'm way overdue in writing up a blog post, so this will be a proably scattered overview of where I'm at right now.

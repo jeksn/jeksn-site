@@ -2,6 +2,7 @@
 import Head from '../components/Head.astro';
 import LayoutLight from '../layouts/LayoutLight.astro';
 import SmallHero from '../components/SmallHero.astro';
+import ArrowUpRight from '../components/ArrowUpRight.astro';
 
 const title = 'Home';
 const subtitle = "jek.sn";
@@ -47,7 +48,7 @@ const ext_links = [
 									class="mt-4 text-sm flex gap-x-1">
 									<span x-show="!copied">Get in touch</span>
 									<span x-show="copied">Email copied!</span>
-									<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right" x-show="!copied"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+									<ArrowUpRight x-show="!copied" />
 									<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" x-show="copied"><path d="M20 6 9 17l-5-5"/></svg>
 								</button>
 							</div>
@@ -65,7 +66,7 @@ const ext_links = [
 										<div class="space-y-1">
 											<a href={link.url} class="text-orange-100 font-departure hover:underline flex gap-1">
 												<span>{link.name}</span>
-												<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+												<ArrowUpRight />
 											</a>
 										</div>
 									</li>
@@ -80,7 +81,7 @@ const ext_links = [
 										<div class="space-y-1">
 											<a href={link.url} class="text-orange-100 font-departure hover:underline flex gap-1">
 												<span>{link.name}</span>
-												<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+												<ArrowUpRight />
 											</a>
 										</div>
 									</li>
