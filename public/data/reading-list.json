@@ -5,12 +5,12 @@
 	},
 	"currentlyReading": [
 		{
-			"title": "The Marching Morons",
-			"author": "C.M. Kornbluth"
-		},
-		{
 			"title": "Inherent Vice",
 			"author": "Thomas Pynchon"
+		},
+		{
+			"title": "Technopoly",
+			"author": "Neil Postman"
 		}
 	],
 	"years": {
