@@ -5,12 +5,12 @@
 	},
 	"currentlyReading": [
 		{
-			"title": "Inherent Vice",
-			"author": "Thomas Pynchon"
-		},
-		{
 			"title": "Technopoly",
 			"author": "Neil Postman"
+		},
+		{
+			"title": "Against The Day",
+			"author": "Thomas Pynchon"
 		}
 	],
 	"years": {
@@ -122,6 +122,10 @@
 			{
 				"title": "Foster",
 				"author": "Claire Keegan"
+			},
+			{
+				"title": "Inherent Vice",
+				"author": "Thomas Pynchon"
 			}
 		],
 		"2025": [
@@ -292,7 +296,7 @@
 			},
 			{
 				"title": "Slow Productivity",
-				"author": "Cal Newport"	
+				"author": "Cal Newport"
 			}
 		],
 		"2024": [
