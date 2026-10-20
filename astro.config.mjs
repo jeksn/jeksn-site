@@ -13,7 +13,7 @@ export default defineConfig({
 	'/apps': '/projects',
 	// '/blog': '/',
   },
- site: "https://jek.sn",
+ site: "https://jeksn.me",
  markdown: {
     shikiConfig: {
       theme: 'nord',

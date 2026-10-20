@@ -26,7 +26,7 @@ const subtitle = "My infrequent writings.";
 							<button
 								aria-label="Copy RSS feed URL"
 								x-data="{ copied: false }"
-								@click="navigator.clipboard.writeText('https://jek.sn/rss.xml'); copied = true; setTimeout(() => copied = false, 2000)"
+								@click="navigator.clipboard.writeText('https://jeksn.me/rss.xml'); copied = true; setTimeout(() => copied = false, 2000)"
 								class="mt-4 text-sm flex gap-x-2 items-center text-orange-100 hover:text-orange-200 font-departure transition-colors">
 								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x-show="!copied">
 									<path d="M4 11a9 9 0 0 1 9 9"></path>

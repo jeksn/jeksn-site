@@ -5,7 +5,7 @@ import SmallHero from '../components/SmallHero.astro';
 import ArrowUpRight from '../components/ArrowUpRight.astro';
 
 const title = 'Home';
-const subtitle = "jek.sn";
+const subtitle = "jeksn.me";
 
 const links = [
 	{ name: 'Blog', url: '/blog' },
@@ -13,7 +13,7 @@ const links = [
 	{ name: 'Reading List', url: '/reading-list' },
 	{ name: 'Now', url: '/now' },
 	{ name: 'Uses', url: '/uses' },
-	{ name: 'CV', url: '/cv' }
+	{ name: 'Work', url: 'https://jek.sn' }
 ];
 
 const ext_links = [
@@ -26,7 +26,7 @@ const ext_links = [
 	<Head slot="head" title={subtitle} />
 	<div class="pt-20 px-4 mb-4 bg-zinc-900">
 		<div class="max-w-screen-lg text-left space-y-4 mx-auto">
-			<h1 class="py-2 text-3xl md:text-5xl text-orange-100 font-departure"><span class="text-orange-100/30 font-departure animate-pulse">https://</span>jek.sn<span class="text-orange-100/30 font-departure animate-pulse">/</span></h1>
+			<h1 class="py-2 text-3xl md:text-5xl text-orange-100 font-departure"><span class="text-orange-100/30 font-departure animate-pulse">https://</span>jeksn.me<span class="text-orange-100/30 font-departure animate-pulse">/</span></h1>
 			<p class="text-base md:text-xl text-orange-100/70 font-departure md:w-3/4 w-full">I still believe in the value of the personal website* and this is my ever changing part of the web.</p>
 		</div>
 	</div>
@@ -44,7 +44,7 @@ const ext_links = [
 								<button
 									aria-label="Copy email address"
 									x-data="{ copied: false }"
-									@click="navigator.clipboard.writeText('hello@jek.sn'); copied = true; setTimeout(() => copied = false, 2000)"
+									@click="navigator.clipboard.writeText('johan@jeksn.me'); copied = true; setTimeout(() => copied = false, 2000)"
 									class="mt-4 text-sm flex gap-x-1">
 									<span x-show="!copied">Get in touch</span>
 									<span x-show="copied">Email copied!</span>
@@ -64,7 +64,7 @@ const ext_links = [
 								{links.map((link) => (
 									<li class="grid grid-cols-1 text-sm gap-2">
 										<div class="space-y-1">
-											<a href={link.url} class="text-orange-100 font-departure hover:underline flex gap-1">
+											<a href={link.url} target={link.url.startsWith('http') ? '_blank' : undefined} rel={link.url.startsWith('http') ? 'noopener noreferrer' : undefined} class="text-orange-100 font-departure hover:underline flex gap-1">
 												<span>{link.name}</span>
 												<ArrowUpRight />
 											</a>
