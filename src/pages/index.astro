@@ -9,11 +9,8 @@ const subtitle = "jeksn.me";
 
 const links = [
 	{ name: 'Blog', url: '/blog' },
-	{ name: 'Projects', url: '/projects' },
 	{ name: 'Reading List', url: '/reading-list' },
-	{ name: 'Now', url: '/now' },
-	{ name: 'Uses', url: '/uses' },
-	{ name: 'Work', url: 'https://jek.sn' }
+	{ name: 'Now', url: '/now' }
 ];
 
 const ext_links = [
@@ -64,10 +61,10 @@ const ext_links = [
 								{links.map((link) => (
 									<li class="grid grid-cols-1 text-sm gap-2">
 										<div class="space-y-1">
-											<a href={link.url} target={link.url.startsWith('http') ? '_blank' : undefined} rel={link.url.startsWith('http') ? 'noopener noreferrer' : undefined} class="text-orange-100 font-departure hover:underline flex gap-1">
-												<span>{link.name}</span>
-												<ArrowUpRight />
-											</a>
+										<a href={link.url} class="text-orange-100 font-departure hover:underline flex gap-1">
+											<span>{link.name}</span>
+											<ArrowUpRight />
+										</a>
 										</div>
 									</li>
 								))}
