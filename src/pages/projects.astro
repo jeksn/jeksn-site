@@ -5,7 +5,7 @@ import SmallHero from '../components/SmallHero.astro';
 import ArrowUpRight from '../components/ArrowUpRight.astro';
 import ProjectsData from '../../public/data/projects.json';
 
-const title = 'Projects';
+const title = 'Apps & Projects';
 const subtitle = "Apps I'm building and releasing, plus small experiments and other fun stuff.";
 
 const apps = ProjectsData.apps;
@@ -22,8 +22,18 @@ const smallProjects = ProjectsData.smallProjects;
 				<div class="md:col-span-1">
 					<div class="sticky top-24 space-y-8">
 						<div>
-							<h3 class="text-lg font-medium text-orange-100 mb-4 font-departure">Projects</h3>
-							<p class="text-sm text-[#939393] font-departure">Software I'm building and releasing, plus small things I made for fun.</p>
+							<ul class="space-y-2">
+								<li>
+									<a href="#apps" class="text-sm text-[#939393] hover:text-orange-100 hover:underline transition-colors font-departure">
+										Apps
+									</a>
+								</li>
+								<li>
+									<a href="#small-projects" class="text-sm text-[#939393] hover:text-orange-100 hover:underline transition-colors font-departure">
+										Small projects
+									</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -31,8 +41,8 @@ const smallProjects = ProjectsData.smallProjects;
 				<!-- Right content area with apps and projects -->
 				<div class="md:col-span-4">
 					<div class="space-y-12">
-						<div>
-							<ul class="space-y-4">
+						<div id="apps" class="scroll-mt-24">
+							<ul class="space-y-8">
 								{apps.map((app) => (
 									<li class="grid grid-cols-1 text-sm gap-2">
 										<div class="space-y-1">
@@ -48,9 +58,9 @@ const smallProjects = ProjectsData.smallProjects;
 							</ul>
 						</div>
 						{smallProjects.length > 0 && (
-						<div>
-							<h3 class="text-orange-100 font-departure mb-4">Small stuff, just for fun</h3>
-							<ul class="space-y-4">
+						<div id="small-projects" class="scroll-mt-24">
+							<h3 class="text-orange-100 font-departure mb-4">Small projects</h3>
+							<ul class="space-y-8">
 								{smallProjects.map((project) => (
 									<li class="grid grid-cols-1 text-sm gap-2">
 										<div class="space-y-1">
