@@ -1,12 +1,30 @@
 ---
 import ScrollToTop from './ScrollToTop.astro';
+import ArrowUpRight from './ArrowUpRight.astro';
 
 const year = new Date().getFullYear();
+
+const socials = [
+	{ name: 'LinkedIn', url: 'https://www.linkedin.com/in/jeksn/' },
+	{ name: 'Bluesky', url: 'https://bsky.app/profile/jeksn.bsky.social' },
+	{ name: 'GitHub', url: 'https://github.com/jeksn' }
+];
 ---
 
-<footer class="w-full pt-12 pb-6 px-4 text-orange-100 z-10">
+<footer class="w-full pt-0 pb-6 px-4 text-orange-100 z-10 bg-black/20">
 	<div class="max-w-screen-lg py-6 mx-auto">
-		<div class="flex flex-col items-center justify-center gap-y-4 mt-24">
+		<div class="flex flex-col items-center justify-center mt-6">
+			<h3 class="text-orange-100 font-departure mb-4">Find me here:</h3>
+			<div class="flex items-center justify-center gap-6">
+				{socials.map((link) => (
+					<a href={link.url} target="_blank" rel="noopener noreferrer" class="text-sm text-orange-100/70 hover:text-orange-100 font-departure flex items-center gap-1 transition-colors">
+						<span>{link.name}</span>
+						<ArrowUpRight />
+					</a>
+				))}
+			</div>
+		</div>
+		<div class="flex flex-col items-center justify-center gap-y-4 mt-10">
 			<span class="text-xs text-orange-100/70 font-departure">*The design and layout is never finished and might change at any time.</span>
 			<span class="text-sm text-orange-100/70 font-departure">Copyright © {year} Johan Eriksson / jeksn</span>
 		</div>

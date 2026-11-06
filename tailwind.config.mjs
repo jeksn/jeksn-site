@@ -3,6 +3,15 @@ export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
+			colors: {
+				orange: {
+					100: '#FFFFE3',
+				},
+				zinc: {
+					800: '#1C1B17',
+					900: '#10100E',
+				},
+			},
 			fontFamily: {
 				inter: ['var(--font-inter)', 'ui-sans-serif', 'system-ui'],
 				mono: ['var(--font-jetbrains-mono)', 'ui-monospace', 'SFMono-Regular'],
