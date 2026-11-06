@@ -1,0 +1,64 @@
+{
+	"apps": [
+		{
+			"name": "Chum",
+			"description": "A Spotlight replacement for macOS. Press one hotkey and type: Chum searches everything at once — installed apps, window commands, clipboard history, snippets, and quick calculations — and acts on the top result. Window management ships with 27 ready-made commands, snippets expand system-wide, and a hyper key turns Caps Lock into ⌃⌥⇧⌘ for conflict-free hotkeys. A native, lightweight menu-bar app that works out of the box.",
+			"url": "https://github.com/jeksn/chum"
+		},
+		{
+			"name": "Feedwire",
+			"description": "A lightweight, native RSS and Atom reader for macOS. Add feeds by URL — YouTube channels become feeds automatically — organise them into folders, and read in a built-in pane with unread-first sorting and bookmarks. Articles can be filtered by rule, and everything imports and exports as OPML. Built with Tauri, React, and Rust.",
+			"url": "https://github.com/jeksn/feedwire"
+		},
+		{
+			"name": "Billy",
+			"description": "An ebook library manager for EPUB and PDF. A Calibre-style library without the bloat: import books or whole folders, keep them in a self-contained folder layout, and search with author, format, and year filters. Built with Tauri, React, and Rust.",
+			"url": "https://github.com/jeksn/billy"
+		},
+		{
+			"name": "Splash",
+			"description": "A minimal comic reader for macOS. A fast, distraction-free reader for CBZ, CBR, and PDF comics — local-first, so your library, reading progress, and settings never leave your machine. Library folders become stack tiles, with favorites, read-later lists, and page, spread, and scroll modes. Native macOS app."
+		},
+		{
+			"name": "Runningback",
+			"description": "See which of your projects have dev servers running. One Go binary detects every dev server on your machine, a terminal TUI shows them with their URLs, and a small macOS menu-bar app keeps a live count — without jumping into each project.",
+			"url": "https://github.com/jeksn/runningback"
+		},
+		{
+			"name": "Pho",
+			"description": "A photo import and management app. Detects camera cards, copies files into a dated folder library, and skips duplicates by hashing everything. Shots are grouped by filename stem (RAW + JPEG + sidecars are one shot) and reviewed one by one with keep/discard — sessions persist so you can resume later. Built with Tauri v2 on macOS.",
+			"url": "https://github.com/jeksn/pho"
+		}
+	],
+	"smallProjects": [
+		{
+			"name": "Gridstone",
+			"description": "A picross (nonogram) game built with Löve2D, with a 3D carving twist: Gridstone Carve lets you chisel sculptures out of iso-rendered blocks. No art assets — everything is drawn with rectangles, lines and text."
+		},
+		{
+			"name": "Blockera",
+			"description": "A browser extension that blocks distracting sites with a dismissible blur overlay. Sites are organised into block groups, each with its own rules — temporary access, daily limits, delays, and active hours. Built with WXT, React, and TypeScript.",
+			"url": "https://github.com/jeksn/blockera"
+		},
+		{
+			"name": "Eklipse",
+			"description": "A browser extension for improving YouTube — hide the home feed, limit recommendations, disable autoplay, remove Shorts, and more. Strips away distractions and puts you back in control of your YouTube experience.",
+			"url": "https://github.com/jeksn/eklipse"
+		},
+		{
+			"name": "Hat Stack",
+			"description": "A simple starter template based on Alpine.js, Tailwind and Handlebars.",
+			"url": "https://github.com/jeksn/HatStack"
+		},
+		{
+			"name": "Alpinist",
+			"description": "A collection of Alpine.js components.",
+			"url": "https://alpinist.jeksn.me"
+		},
+		{
+			"name": "Weeek",
+			"description": "Small site that displays the week number.",
+			"url": "https://week.jeksn.me"
+		}
+	]
+}

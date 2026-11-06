@@ -1,6 +1,6 @@
 [
     {
-        "name": "Making side projects",
+        "name": "Working on side projects",
         "description": "Using AI-tools to make apps, extensions or other small tools to improve my workflow and life online."
     },
     {
@@ -16,7 +16,11 @@
 		"description": "I don't have time to do it as often as I'd like, but it's been fun when I can."
 	},
 	{
-		"name": "Going to the gym",
+		"name": "Going to the gym and running",
 		"description": "Trying to get a routine going and be more consistent."
+	},
+	{
+		"name": "Photography",
+		"description": "Trying to shoot more often."
 	}
 ]

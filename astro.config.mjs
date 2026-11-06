@@ -9,8 +9,8 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   integrations: [alpinejs(), sitemap()],
   redirects: {
-	'/small-projects': 'https://jek.sn/apps',
-	'/apps': 'https://jek.sn/apps',
+	'/small-projects': '/projects',
+	'/apps': '/projects',
 	// '/blog': '/',
   },
  site: "https://jeksn.me",

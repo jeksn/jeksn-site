@@ -1,0 +1,132 @@
+---
+import Head from '../components/Head.astro';
+import LayoutLight from '../layouts/LayoutLight.astro';
+import ArrowUpRight from '../components/ArrowUpRight.astro';
+
+const title = 'CV';
+
+const personSchema = {
+	"@context": "https://schema.org",
+	"@type": "Person",
+	"name": "Johan Eriksson",
+	"url": "https://jeksn.me",
+	"email": "johan@jeksn.me",
+	"address": {
+		"@type": "PostalAddress",
+		"addressLocality": "Stockholm",
+		"addressCountry": "Sweden"
+	},
+	"alumniOf": [
+		{
+			"@type": "CollegeOrUniversity",
+			"name": "Linköping Universitet"
+		},
+		{
+			"@type": "CollegeOrUniversity",
+			"name": "Örebro Universitet"
+		}
+	],
+	"worksFor": {
+		"@type": "Organization",
+		"name": "WTMG",
+		"url": "https://wtmg.se"
+	},
+	"sameAs": [
+		"https://www.linkedin.com/in/jeksn/",
+		"https://github.com/jeksn"
+	]
+};
+---
+
+<LayoutLight>
+	<Head slot="head" title={title}>
+		<script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+	</Head>
+	<!-- <Hero title={title}/> -->
+	<section class="pt-12 pb-16 px-4">
+		<div class="mt-6 max-w-screen-sm mx-auto">
+			<h1 class="text-2xl md:text-3xl mb-12 font-departure">{title}</h1>
+			<div class="space-y-10 mb-12">
+				<div>
+					<h3 class="font-departure">Personal information</h3>
+					<div class="grid grid-cols-5 text-sm gap-6 mt-6">
+						<p class="text-[#888] col-span-1 font-departure">Name</p>
+						<div class="col-span-4 space-y-1">
+							<p class="text-orange-100 font-departure">Johan Eriksson</p>
+						</div>
+					</div>
+					<div class="grid grid-cols-5 text-sm gap-6 mt-6">
+						<p class="text-[#888] col-span-1 font-departure">Location</p>
+						<div class="col-span-4 space-y-1 *:font-departure">
+							<p class="text-orange-100">Stockholm, Sweden</p>
+						</div>
+					</div>
+					<!-- <div class="grid grid-cols-5 text-sm gap-6 mt-6">
+						<p class="text-[#888] col-span-1">Short bio</p>
+						<div class="col-span-4 space-y-1 leading-relaxed">
+							<p class="text-orange-100/80">I'm a web developer with a passion for creating beautiful and functional websites.</p>
+							<p class="text-orange-100/80">I'm originally from Örebro and moved to Stockholm in 2018.</p>
+							<p class="text-orange-100/80">I'm married and have a 3 year old son.</p>
+							<p class="text-orange-100/80">In my free time I enjoy playing disc golf, going to the gym and reading books.</p>
+						</div>
+					</div> -->
+				</div>
+				<div>
+					<h3 class="font-departure">Education</h3>
+					<div class="grid grid-cols-5 text-sm gap-12 mt-6 font-departure">
+						<p class="text-[#888] col-span-1 font-departure">2025</p>
+						<div class="col-span-4 space-y-1 *:font-departure">
+							<p class="text-orange-100">Cybersecurity - fundamentals and awareness</p>
+							<p class="text-[#939393]">Linköping Universitet (Remote)</p>
+						</div>
+					</div>
+					<div class="grid grid-cols-5 text-sm gap-12 mt-6">
+						<p class="text-[#888] col-span-1 font-departure">2014</p>
+						<div class="col-span-4 space-y-1 *:font-departure">
+							<p class="text-orange-100">3D-graphics and Visual Effects for Video</p>
+							<p class="text-[#939393]">Örebro Universitet</p>
+						</div>
+					</div>
+					<div class="grid grid-cols-5 text-sm gap-12 mt-6">
+						<p class="text-[#888] col-span-1 font-departure">2012 - 2013</p>
+						<div class="col-span-4 space-y-1 *:font-departure">
+							<p class="text-orange-100">Bachelor of Arts</p>
+							<p class="text-orange-100/80">Digital media design / Media and Communication Studies </p>
+							<p class="text-[#939393]">Örebro Universitet</p>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h3 class="font-departure">Work experience</h3>
+					<div class="grid grid-cols-5 text-sm gap-12 mt-6 font-departure">
+						<p class="text-[#888] col-span-1 font-departure">2018 - Now</p>
+						<div class="col-span-4 space-y-1 font-departure">
+							<a href="https://wtmg.se" class="text-orange-100 flex gap-1 hover:underline" target="_blank"><span>Developer at WTMG</span><ArrowUpRight /></a>
+							<p class="text-[#939393] font-departure">Design, build and maintain websites, apps and services for clients and internal use.</p>
+							<p class="text-[#939393] font-departure">Worked with a wide range of technologies and frameworks (Wordpress, Laravel, Astro, React, Vue etc.).</p>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h3 class="font-departure">Contact</h3>
+					<div class="grid grid-cols-5 text-sm gap-4 mt-4">
+						<p class="text-[#888] col-span-1 font-departure">Email</p>
+						<div class="col-span-4">
+							<a href="mailto:johan@jeksn.me" class="text-orange-100 flex gap-1 hover:underline"><span>johan@jeksn.me</span><ArrowUpRight /></a>
+						</div>
+						<p class="text-[#888] col-span-1 font-departure">LinkedIn</p>
+						<div class="col-span-4">
+							<a href="https://linkedin.com/in/jeksn" class="text-orange-100 flex gap-1 hover:underline" target="_blank"><span>jeksn</span><ArrowUpRight /></a>
+						</div>
+						<p class="text-[#888] col-span-1 font-departure">GitHub</p>
+						<div class="col-span-4">
+							<a href="https://github.com/jeksn" class="text-orange-100 flex gap-1 hover:underline" target="_blank"><span>jeksn</span><ArrowUpRight /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</LayoutLight>
+
+
